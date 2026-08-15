@@ -1,0 +1,27 @@
+.mkdf-section-title-holder {
+	.mkdf-section-title {
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 20px;
+
+		&.mkdf-section-title-large {
+			font-size: 37px;
+		}
+
+		&.mkdf-section-title-medium {
+			font-size: 30px;
+		}
+
+		&.mkdf-section-title-small {
+			font-size: 26px;
+		}
+	}
+}
+
+.mkdf-section-subtitle-holder {
+	.mkdf-section-subtitle {
+		font-size: 18px;
+		line-height: 30px;
+		margin: 0;
+	}
+}

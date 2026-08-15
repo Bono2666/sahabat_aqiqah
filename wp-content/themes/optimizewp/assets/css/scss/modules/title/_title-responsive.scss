@@ -1,0 +1,125 @@
+
+@include ipad-landscape {
+
+    .mkdf-title {
+
+        &.mkdf-has-background {
+            background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+            height: auto !important;
+            padding: 0 !important;
+        }
+
+        &.mkdf-title-image-not-responsive {
+            .mkdf-title-image {
+                display: block;
+            }
+        }
+
+        .mkdf-title-holder {
+            height: 100% !important;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 0 !important;
+        }
+
+        .mkdf-title-holder .mkdf-container {
+            display: block;
+            height: 100%;
+        }
+
+        .mkdf-title-holder .mkdf-container-inner {
+            display: table;
+            height: 100%;
+        }
+
+        .mkdf-title-holder .mkdf-title-subtitle-holder {
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        .mkdf-title-subtitle-holder {
+            padding: 0px !important;
+        }
+
+        &.mkdf-standard-type .mkdf-breadcrumbs-holder {
+            position: relative !important;
+            top: auto !important;
+            left: auto !important;
+            right: auto !important;
+        }
+
+    }
+
+}
+
+@include ipad-portrait {
+	.mkdf-large-title-text {
+		.mkdf-title .mkdf-title-holder h1 {
+			font-size: 26px;
+		}
+
+		&.mkdf-title-with-subtitle .mkdf-title .mkdf-title-holder h1 {
+			margin-bottom: 15px;
+		}
+	}
+
+	.mkdf-title .mkdf-title-holder .mkdf-subtitle {
+		width: 100%;
+	}
+
+	.mkdf-large-title-text & .mkdf-title .mkdf-title-holder .mkdf-subtitle {
+		font-size: 15px;
+	}
+}
+
+@include phone-landscape {
+	.mkdf-large-title-text {
+		.mkdf-title .mkdf-title-holder h1 {
+			font-size: 23px;
+		}
+
+		&.mkdf-title-with-subtitle .mkdf-title .mkdf-title-holder h1 {
+			margin-bottom: 10px;
+		}
+	}
+
+	.mkdf-medium-title-text {
+		.mkdf-title .mkdf-title-holder h1 {
+			font-size: 20px;
+		}
+
+		&.mkdf-title-with-subtitle .mkdf-title .mkdf-title-holder h1 {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+@include phone-portrait {
+	.mkdf-large-title-text {
+		.mkdf-title .mkdf-title-holder h1 {
+			font-size: 20px;
+		}
+	}
+
+	.mkdf-medium-title-text {
+		.mkdf-title .mkdf-title-holder h1 {
+			font-size: 18px;
+		}
+	}
+
+	.mkdf-title .mkdf-title-holder {
+		.mkdf-breadcrumbs {
+			a, span {
+				font-size: 12px;
+			}
+		}
+
+		.mkdf-subtitle {
+			font-size: 13px;
+		}
+	}
+}
+

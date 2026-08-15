@@ -1,0 +1,199 @@
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/assets/custom-styles/general-custom-styles.php optimize_mikado_design_styles function */
+.mkdf-preload-background { background-image: url(https://sahabataqiqah.co.id/wp-content/themes/optimizewp/assets/img/preload_pattern.png) !important;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/assets/custom-styles/general-custom-styles.php optimize_mikado_design_styles function */
+.mkdf-boxed .mkdf-wrapper { background-attachment: fixed;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/assets/custom-styles/general-custom-styles.php optimize_mikado_link_styles function */
+a, p a { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/assets/custom-styles/general-custom-styles.php optimize_mikado_link_hover_styles function */
+a:hover, p a:hover { color: #ff8c42;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/assets/custom-styles/general-custom-styles.php optimize_mikado_link_hover_styles function */
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #ff8c42;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/assets/custom-styles/general-custom-styles.php optimize_mikado_smooth_page_transition_styles function */
+.mkdf-smooth-transition-loader { background-color: #35271a;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/assets/custom-styles/general-custom-styles.php optimize_mikado_smooth_page_transition_styles function */
+.mkdf-st-loader .pulse, .mkdf-st-loader .double_pulse .double-bounce1, .mkdf-st-loader .double_pulse .double-bounce2, .mkdf-st-loader .cube, .mkdf-st-loader .rotating_cubes .cube1, .mkdf-st-loader .rotating_cubes .cube2, .mkdf-st-loader .stripes > div, .mkdf-st-loader .wave > div, .mkdf-st-loader .two_rotating_circles .dot1, .mkdf-st-loader .two_rotating_circles .dot2, .mkdf-st-loader .five_rotating_circles .container1 > div, .mkdf-st-loader .five_rotating_circles .container2 > div, .mkdf-st-loader .five_rotating_circles .container3 > div, .mkdf-st-loader .atom .ball-1:before, .mkdf-st-loader .atom .ball-2:before, .mkdf-st-loader .atom .ball-3:before, .mkdf-st-loader .atom .ball-4:before, .mkdf-st-loader .clock .ball:before, .mkdf-st-loader .mitosis .ball, .mkdf-st-loader .lines .line1, .mkdf-st-loader .lines .line2, .mkdf-st-loader .lines .line3, .mkdf-st-loader .lines .line4, .mkdf-st-loader .fussion .ball, .mkdf-st-loader .fussion .ball-1, .mkdf-st-loader .fussion .ball-2, .mkdf-st-loader .fussion .ball-3, .mkdf-st-loader .fussion .ball-4, .mkdf-st-loader .wave_circles .ball, .mkdf-st-loader .pulse_circles .ball { background-color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/accordions/custom-styles/custom-styles.php optimize_mikado_accordions_active_title_color_styles function */
+.mkdf-accordion-holder.mkdf-initial .mkdf-title-holder.ui-state-active, .mkdf-accordion-holder.mkdf-initial .mkdf-title-holder.ui-state-hover { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/accordions/custom-styles/custom-styles.php optimize_mikado_accordions_active_icon_color_styles function */
+.mkdf-accordion-holder.mkdf-initial .mkdf-title-holder.ui-state-active  .mkdf-accordion-mark, .mkdf-accordion-holder.mkdf-initial .mkdf-title-holder.ui-state-hover  .mkdf-accordion-mark { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/button/custom-styles/custom-styles.php optimize_mikado_button_outline_styles function */
+.mkdf-btn.mkdf-btn-outline:not(.mkdf-btn-custom-hover-bg):hover { background-color: #35271a!important;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/button/custom-styles/custom-styles.php optimize_mikado_button_solid_styles function */
+.mkdf-btn.mkdf-btn-solid { border-color: #c68f3a;background-color: #c68f3a;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/button/custom-styles/custom-styles.php optimize_mikado_button_solid_styles function */
+.mkdf-btn.mkdf-btn-solid:not(.mkdf-btn-custom-hover-color):hover { color: #ffffff!important;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/button/custom-styles/custom-styles.php optimize_mikado_button_solid_styles function */
+.mkdf-btn.mkdf-btn-solid:not(.mkdf-btn-custom-hover-bg):hover { background-color: #35271a!important;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/button/custom-styles/custom-styles.php optimize_mikado_button_solid_styles function */
+.mkdf-btn.mkdf-btn-solid:not(.mkdf-btn-custom-hover-bg):hover { border-color: #35271a!important;}
+
+/* generated in /home/u8365310/public_html/wp-content/plugins/mikado-core/shortcodes/tabs/custom-styles/custom-styles.php optimize_mikado_tabs_active_color_styles function */
+.mkdf-tabs .mkdf-tabs-nav li.ui-state-active a, .mkdf-tabs .mkdf-tabs-nav li.ui-state-hover a { color: #ffffff;background-color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/header.php optimize_mikado_header_top_bar_styles function */
+.mkdf-top-bar { background-color: rgba(198, 143, 58, 1);}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/header.php optimize_mikado_header_standard_menu_area_styles function */
+.mkdf-header-standard .mkdf-page-header .mkdf-menu-area { background-color: rgba(53, 39, 26, 1);}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/header.php optimize_mikado_sticky_header_styles function */
+.mkdf-page-header .mkdf-sticky-header .mkdf-sticky-holder { background-color: rgba(53, 39, 26, 1);}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/header.php optimize_mikado_sticky_header_styles function */
+.mkdf-page-header .mkdf-sticky-header .mkdf-main-menu > ul > li.mkdf-active-item > a, .mkdf-page-header .mkdf-sticky-header .mkdf-main-menu > ul > li > a, .mkdf-page-header .mkdf-sticky-header .mkdf-search-opener, .mkdf-page-header .mkdf-sticky-header .mkdf-side-menu-button-opener, body:not(.mkdf-menu-item-first-level-bg-color) .mkdf-page-header .mkdf-sticky-header .mkdf-main-menu > ul > li > a { color: #ffffff;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/header.php optimize_mikado_sticky_header_styles function */
+.mkdf-page-header .mkdf-sticky-header .mkdf-main-menu > ul > li.mkdf-active-item > a:hover, .mkdf-page-header .mkdf-sticky-header .mkdf-main-menu > ul > li > a:hover, .mkdf-page-header .mkdf-sticky-header .mkdf-search-opener:hover, .mkdf-page-header .mkdf-sticky-header .mkdf-side-menu-button-opener:hover, body:not(.mkdf-menu-item-first-level-bg-color) .mkdf-page-header .mkdf-sticky-header .mkdf-main-menu > ul > li > a:hover { color: #f08519;}
+
+            .mkdf-main-menu.mkdf-default-nav > ul > li > a,
+            .mkdf-page-header #lang_sel > ul > li > a,
+            .mkdf-page-header #lang_sel_click > ul > li > a,
+            .mkdf-page-header #lang_sel ul > li:hover > a{
+             color: #ffffff;                                                                                     }
+        
+        
+                    .mkdf-main-menu.mkdf-default-nav > ul > li:hover > a,
+            .mkdf-main-menu.mkdf-default-nav > ul > li.mkdf-active-item:hover > a,
+            body:not(.mkdf-menu-item-first-level-bg-color) .mkdf-main-menu.mkdf-default-nav > ul > li:hover > a,
+            body:not(.mkdf-menu-item-first-level-bg-color) .mkdf-main-menu.mkdf-default-nav > ul > li.mkdf-active-item:hover > a,
+            .mkdf-page-header #lang_sel ul li a:hover,
+            .mkdf-page-header #lang_sel_click > ul > li a:hover{
+            color: #f08519 !important;
+            }
+        
+                    .mkdf-main-menu.mkdf-default-nav > ul > li.mkdf-active-item > a,
+            body:not(.mkdf-menu-item-first-level-bg-color) .mkdf-main-menu.mkdf-default-nav > ul > li.mkdf-active-item > a{
+            color: #f08519;
+            }
+        
+        
+        
+        
+
+        
+                    .light .mkdf-main-menu.mkdf-default-nav > ul > li.mkdf-active-item > a{
+            color: #f08519 !important;
+            }
+        
+        
+                    .dark .mkdf-main-menu.mkdf-default-nav > ul > li.mkdf-active-item > a{
+            color: #f08519;
+            }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                    .mkdf-drop-down .second .inner > ul > li:hover > a,
+            .mkdf-drop-down .wide .second ul li ul li.menu-item-has-children:hover > a,
+            .mkdf-drop-down .wide .second .inner ul li.sub ul li.menu-item-has-children:hover > a,
+            .mkdf-main-menu.mkdf-default-nav #lang_sel ul li li:hover a,
+            .mkdf-main-menu.mkdf-default-nav #lang_sel_click ul li ul li:hover a,
+            .mkdf-main-menu.mkdf-default-nav #lang_sel ul li:hover > a,
+            .mkdf-main-menu.mkdf-default-nav #lang_sel_click ul li:hover > a{
+            color: #f08519 !important;
+            }
+        
+        
+        
+        
+                    .mkdf-drop-down .wide .second .inner > ul > li:hover > a {
+            color: #f08519 !important;
+            }
+        
+        
+        
+                            .mkdf-drop-down .second .inner ul li.sub ul li:not(.flex-active-slide):hover > a:not(.flex-prev):not(.flex-next),
+            .mkdf-drop-down .second .inner ul li ul li:not(.flex-active-slide):hover > a:not(.flex-prev):not(.flex-next){
+            color: #f08519 !important;
+            }
+        
+        
+                            .mkdf-drop-down .wide .second .inner ul li.sub ul li:not(.flex-active-slide) > a:not(.flex-prev):not(.flex-next):hover,
+            .mkdf-drop-down .wide .second .inner ul li ul li:not(.flex-active-slide) > a:not(.flex-prev):not(.flex-next):hover{
+            color: #f08519 !important;
+            }
+        
+        /* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/mobile-header.php optimize_mikado_mobile_header_general_styles function */
+.mkdf-mobile-header .mkdf-mobile-header-inner { background-color: #35271a;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/mobile-header.php optimize_mikado_mobile_navigation_styles function */
+.mkdf-mobile-header .mkdf-mobile-nav { background-color: #35271a;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/mobile-header.php optimize_mikado_mobile_navigation_styles function */
+.mkdf-mobile-header .mkdf-mobile-nav a, .mkdf-mobile-header .mkdf-mobile-nav h4 { border-bottom-color: #f08519;color: #ffffff;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/mobile-header.php optimize_mikado_mobile_navigation_styles function */
+.mkdf-mobile-header .mkdf-mobile-nav a:hover, .mkdf-mobile-header .mkdf-mobile-nav h4:hover { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/mobile-header.php optimize_mikado_mobile_icon_styles function */
+.mkdf-mobile-header .mkdf-mobile-menu-opener a { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/header/custom-styles/mobile-header.php optimize_mikado_mobile_icon_styles function */
+.mkdf-mobile-header .mkdf-mobile-menu-opener a:hover { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/search/custom-styles/search.php optimize_mikado_search_opener_icon_colors function */
+.mkdf-search-opener:hover { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/search/custom-styles/search.php optimize_mikado_search_opener_icon_colors function */
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-search-opener:hover,
+			.mkdf-light-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-search-opener:hover,
+			.mkdf-light-header .mkdf-top-bar .mkdf-search-opener:hover { color: #f08519 !important;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/search/custom-styles/search.php optimize_mikado_search_opener_icon_colors function */
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-search-opener:hover,
+			.mkdf-dark-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-search-opener:hover,
+			.mkdf-dark-header .mkdf-top-bar .mkdf-search-opener:hover { color: #f08519 !important;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_icon_color_styles function */
+a.mkdf-side-menu-button-opener { color: #f08519;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_icon_color_styles function */
+a.mkdf-side-menu-button-opener:hover { color: #43cb83;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_icon_color_styles function */
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-side-menu-button-opener,
+			.mkdf-light-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-side-menu-button-opener,
+			.mkdf-light-header .mkdf-top-bar .mkdf-side-menu-button-opener { color: #f08519 !important;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_icon_color_styles function */
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-side-menu-button-opener:hover,
+			.mkdf-light-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-side-menu-button-opener:hover,
+			.mkdf-light-header .mkdf-top-bar .mkdf-side-menu-button-opener:hover { color: #43cb83 !important;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_icon_color_styles function */
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-side-menu-button-opener,
+			.mkdf-dark-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-side-menu-button-opener,
+			.mkdf-dark-header .mkdf-top-bar .mkdf-side-menu-button-opener { color: #f08519 !important;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_icon_color_styles function */
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-side-menu-button-opener:hover,
+			.mkdf-dark-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-side-menu-button-opener:hover,
+			.mkdf-dark-header .mkdf-top-bar .mkdf-side-menu-button-opener:hover { color: #43cb83 !important;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_styles function */
+.mkdf-side-menu { background-color: #ffffff;background-image: url(https://sahabataqiqah.co.id/dev/wp-content/uploads/2015/12/side-area-background.jpg);background-size: cover;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_styles function */
+.mkdf-side-menu a.mkdf-close-side-menu span, .mkdf-side-menu a.mkdf-close-side-menu i { color: #000000;}
+
+/* generated in /home/u8365310/public_html/wp-content/themes/optimizewp/framework/modules/sidearea/custom-styles/sidearea.php optimize_mikado_side_area_link_styles function */
+.mkdf-side-menu .widget a:hover, .mkdf-side-menu .widget li:hover, .mkdf-side-menu .widget li:hover>a { color: #f08519;}
+

@@ -1,0 +1,16 @@
+/* ==========================================================================
+   #Twitter feed
+   ========================================================================== */
+.mkdf-twitter-widget li {
+    margin-bottom: 15px;
+	padding-bottom: 15px;
+
+	&:last-child {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+.mkdf-twitter-widget .mkdf-tweet-time {
+    margin-top: 7px;
+}

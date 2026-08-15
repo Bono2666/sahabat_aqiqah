@@ -1,0 +1,116 @@
+.mkdf-info-box-holder {
+	//@todo responsive
+
+	color: #fff;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+
+	padding: 110px 0;
+	
+	//styles when placed in elements holder
+	.mkdf-elements-holder & {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+	}
+
+	.mkdf-elements-holder.mkdf-two-columns & {
+		width: 50%;
+	}
+
+	.mkdf-elements-holder.mkdf-three-columns & {
+		width: 33%;
+	}
+
+	.mkdf-elements-holder.mkdf-four-columns & {
+		width: 25%;
+	}
+
+	.mkdf-elements-holder.mkdf-five-columns & {
+		width: 20%;
+	}
+
+	.mkdf-elements-holder.mkdf-six-columns & {
+			width: 16%;
+	}
+
+	&.mkdf-info-box-with-image {
+		background-color: #0e0d0b;
+	}
+
+	.mkdf-info-box-inner {
+		display: table;
+		width: 100%;
+		height: 100%;
+	}
+
+	.mkdf-ib-front-holder {
+		padding: 0 40px;
+		z-index: 3;
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+
+		.mkdf-ib-icon-holder {
+			color: rgba(255, 255, 255, 0.28);
+			font-size: 72px;
+			margin-bottom: 35px;
+
+			@include mkdfTransform(translate(0, -5px));
+		}
+
+		.mkdf-ib-title {
+			color: #fff;
+			text-transform: uppercase;
+		}
+
+		.mkdf-ib-button-holder {
+			margin-top: 35px;
+		}
+
+		.mkdf-ib-text-holder {
+			font-size: 18px;
+			margin-top: 10px;
+
+			p {
+				margin: 0;
+			}
+		}
+
+		.mkdf-ib-bottom-holder {
+			opacity: 0;
+			//top: 100%;
+			position: absolute;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			padding: 0 20px;
+
+			@include mkdfBoxSizing(border-box);
+		}
+	}
+
+	.mkdf-ib-overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		background-color: #323232;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&.mkdf-info-box-with-image {
+		.mkdf-ib-overlay {
+			opacity: 0.19;
+		}
+	}
+
+	&:hover {
+
+	}
+}

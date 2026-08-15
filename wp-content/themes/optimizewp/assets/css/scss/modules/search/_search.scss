@@ -1,0 +1,41 @@
+@import 'types/fullscreen-search';
+@import 'types/search-covers-header';
+@import 'types/search-dropdown';
+@import 'types/slide-from-header-bottom';
+@import 'types/slide-from-window-top';
+
+/* ==========================================================================
+# Search style - begin
+========================================================================== */
+
+.mkdf-search-opener {
+	@include mkdfTransition(all 0.15s ease-out);
+
+	.mkdf-search-icon-text {
+		@include mkdfTransition(all 0.15s ease-out);
+	}
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-search-opener,
+.mkdf-light-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-search-opener,
+.mkdf-top-bar-light .mkdf-top-bar .mkdf-search-opener {
+	color: $header-light-color !important; //Color can be set inline from widget opener
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header) .mkdf-search-opener,
+.mkdf-dark-header.mkdf-header-style-on-scroll .mkdf-page-header .mkdf-search-opener,
+.mkdf-top-bar-dark .mkdf-top-bar .mkdf-search-opener {
+	color: $header-dark-color !important; //Color can be set inline from widget opener
+}
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+	color: #959595;
+	margin-top: 10px;
+}
+
+/* ==========================================================================
+# Search style - end
+========================================================================== */

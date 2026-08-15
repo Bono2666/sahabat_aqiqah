@@ -1,0 +1,57 @@
+/* ==========================================================================
+# Pie Chart Pie - begin
+========================================================================== */
+
+.mkdf-pie-chart-pie-holder {
+	display: block;
+	position: relative;
+	overflow: hidden;
+
+	.mkdf-pie-chart-pie {
+		margin: 0 22px 0 0;
+		float: left;
+	}
+
+	.mkdf-pie-legend {
+		position: relative;
+		float: left;
+		width: 20%;
+	}
+
+	.mkdf-pie-legend ul {
+		list-style: none;
+		padding:0;
+
+		li {
+			display: block;
+			margin: 0 0 10px 0;
+
+			p {
+				font-size: 12px;
+				font-family: "Poppins", sans-serif;
+				text-transform: capitalize;
+				font-weight: 600;
+				line-height: 25px;
+			}
+		}
+
+		li .mkdf-pie-color-holder {
+			width: 25px;
+			height: 25px;
+			background-color: $first-main-color;
+			float: left;
+		}
+
+		li p {
+			line-height: 25px;
+			margin: 0;
+			padding: 0 0 0 50px;
+		}
+
+	}
+
+}
+
+/* ==========================================================================
+# Pie Chart Pie - end
+========================================================================== */

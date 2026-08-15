@@ -1,0 +1,32 @@
+[05-Aug-2026 19:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/pattern-overrides.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/pattern-overrides.php on line 47
+[05-Aug-2026 19:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/post-data.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/post-data.php on line 98
+[05-Aug-2026 19:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/post-meta.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/post-meta.php on line 70
+[05-Aug-2026 19:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/term-data.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/term-data.php on line 119
+[10-Aug-2026 04:28:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/pattern-overrides.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/pattern-overrides.php on line 47
+[10-Aug-2026 04:28:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/post-data.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/post-data.php on line 98
+[10-Aug-2026 04:28:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/post-meta.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/post-meta.php on line 70
+[10-Aug-2026 04:28:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/block-bindings/term-data.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-bindings/term-data.php on line 119

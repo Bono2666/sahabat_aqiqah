@@ -1,0 +1,169 @@
+/* ==========================================================================
+# Tabs style - begin
+========================================================================== */
+.mkdf-tabs {
+    
+    .mkdf-tabs-nav {
+        display: block;
+        position: relative;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        vertical-align: middle;
+        
+        li a {
+            display: block;
+            text-align: center;
+            padding: 18px 30px;
+            color: #808080;
+            border: 1px solid #f2f2f2;
+            background-color: #fbfbfc;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: $headings-font-family;
+
+            @include mkdfBoxSizing(border-box);
+            @include mkdfTransition(color 0.15s ease-out, background-color 0.15s ease-out, border-color 0.15s ease-out);
+        }
+
+        li.ui-state-active a {
+            color: #545454;
+            background-color: #ffffff;
+            position: relative;
+            z-index: 20;
+        }
+        li.ui-state-hover a {
+            color: #808080;
+            background-color: #ffffff;
+        }
+
+        .mkdf-tab-container {
+            box-sizing: border-box;            
+            position:relative;
+        }
+    }
+    
+}
+/* Horizontal tabs styles
+   ========================================================================== */
+.mkdf-tabs.mkdf-horizontal {
+    
+    .mkdf-tabs-nav li {
+        float: left;
+
+        &:first-child {
+            border-left: 1px solid #f2f2f2;
+        }
+
+        a {
+            border-left: 0;
+        }
+    }
+
+    .mkdf-tab-container {
+        padding: 20px 32px 30px 32px;
+        border: 1px solid #f2f2f2;
+        top: -1px;
+        position: relative;
+        z-index: 10;
+    }
+    
+}
+
+/* Vertical tabs styles
+   ========================================================================== */
+.mkdf-tabs.mkdf-vertical {
+    
+    .mkdf-tabs-nav {
+        float: left;
+        width: 30%;
+        @include mkdfBoxSizing(border-box);
+
+        li.ui-state-active {
+
+
+            a {
+                color: #545454;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 7px;
+                    height: 100%;
+                    right: 0;
+                    top:0;
+                    background-color: #e4e4e4;
+                }
+            }
+        }
+        
+        li {
+            display: block;
+
+            &:last-child {
+                border-bottom: 1px solid #f2f2f2;
+            }
+
+            a {
+                border-bottom: 0;
+                padding: 26px 30px;
+            }
+        }
+
+        &:last-child {
+            margin: 0;
+        }        
+    }
+
+    .mkdf-tab-container {
+        float: left;
+        padding: 0 45px 10px 45px;
+        width: 70%;
+
+        @include mkdfBoxSizing(border-box);
+    }
+
+    &.mkdf-vertical-nav-width-small {
+        .mkdf-tabs-nav {
+            width: 22.92%;
+        }
+
+        .mkdf-tab-container {
+            width: 77.08%;
+        }
+    }
+    
+}
+
+/* Tabs with icon and text styles start
+   ========================================================================== */
+
+
+.mkdf-tabs.mkdf-tab-text-icon .mkdf-tabs-nav li a {
+    
+    .mkdf-tab-text-after-icon {
+        padding-left: 10px;
+        @include mkdfTransition(initial);
+    }
+}
+
+/* Tabs with icon styles - start
+   ========================================================================== */
+
+.mkdf-tabs.mkdf-tab-icon .mkdf-tabs-nav li a {
+    i,
+    span {
+        @include mkdfTransition(initial);
+    }
+
+    .mkdf-icon-frame {
+        display: inline-block;
+        min-width: 20px;
+    }
+    
+}
+/* ==========================================================================
+# Tabs style - end
+========================================================================== */

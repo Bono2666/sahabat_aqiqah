@@ -1,0 +1,24 @@
+@media only screen and (max-width: $ipad-landscape){
+    .mkdf-instagram-feed.mkdf-col-9 li {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (max-width: $ipad-portrait){
+    .mkdf-instagram-feed.mkdf-col-4 li {
+        width: 50%;
+    }
+
+    .mkdf-instagram-feed.mkdf-col-6 li {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (max-width: $phone-portrait){
+    .mkdf-instagram-feed.mkdf-col-4 li,
+    .mkdf-instagram-feed.mkdf-col-3 li,
+    .mkdf-instagram-feed.mkdf-col-6 li,
+    .mkdf-instagram-feed.mkdf-col-9 li {
+        width: 100%;
+    }
+}

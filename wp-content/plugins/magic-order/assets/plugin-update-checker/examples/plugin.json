@@ -1,0 +1,52 @@
+{
+	"name": "Magic Order",
+	"version": "3.0",
+	"download_url": "http://member.magicorder.id/public/files/downloads/magic-order/magic-order.zip",
+
+	"homepage": "http://magicorder.id",
+	"requires": "4.5",
+	"tested": "5.4",
+	"last_updated": "2018-06-12 21:46:00",
+	"upgrade_notice": "Here's why you should upgrade...",
+
+	"author": "Ridwan Pujakesuma",
+	"author_homepage": "https://www.facebook.com/ridwanpujakesuma",
+
+	"sections": {
+		"description": "(Required) Plugin description. Basic HTML can be used in all sections.",
+		"installation": "(Recommended) Installation instructions.",
+		"changelog": "(Recommended) Changelog. <p>This section will be displayed by default when the user clicks 'View version x.y.z details'.</p>",
+		"custom_section": "This is a custom section labeled 'Custom Section'."
+	},
+	
+	"icons" : {
+		"1x" : "http://member.magicorder.id/public/files/downloads/magic-order/assets/icon-128x128.jpg",
+		"2x" : "http://member.magicorder.id/public/files/downloads/magic-order/assets/icon-256x256.jpg"
+    },
+
+	"banners": {
+		"low": "http://member.magicorder.id/public/files/downloads/magic-order/assets/banner-772x250-2.0.jpg",
+		"high": "http://member.magicorder.id/public/files/downloads/magic-order/assets/banner-1544x500-2.0.jpg"
+	},
+
+	"translations": [
+		{
+			"language": "fr_FR",
+			"version": "4.0",
+			"updated": "2016-04-22 23:22:42",
+			"package": "http://example.com/updates/translations/french-language-pack.zip"
+		},
+		{
+			"language": "de_DE",
+			"version": "5.0",
+			"updated": "2016-04-22 23:22:42",
+			"package": "http://example.com/updates/translations/german-language-pack.zip"
+		}
+	],
+
+	"rating": 90,
+	"num_ratings": 123,
+
+	"downloaded": 1234,
+	"active_installs": 12345
+}

@@ -1,0 +1,39 @@
+@include ipad-landscape {
+	footer .mkdf-footer-bottom-holder {
+		height: auto;
+	}
+
+	footer .mkdf-footer-bottom-holder .mkdf-two-columns-50-50 .mkdf-column:last-child .mkdf-column-inner {
+		text-align: left;
+		padding-top: 19px;
+		padding-bottom: 19px;
+	}
+
+	footer .mkdf-footer-bottom-holder .widget.mkdf-footer-bottom-left.widget_text {
+		padding-bottom: 19px;
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+
+	.mkdf-footer-bottom-holder .widget_mkd_social_icon_widget {
+		border: none !important;
+	}
+
+	.mkdf-footer-bottom-holder .widget_mkd_social_icon_widget a {
+		padding: 0 5px;
+		height: auto;
+		width: 30px;
+
+		&:hover {
+			background-color: transparent !important;
+		}
+	}
+
+	.mkdf-footer-bottom-holder .widget_mkd_social_icon_widget:first-child {
+		a {
+			padding-left: 0;
+		}
+	}
+}

@@ -1,0 +1,105 @@
+.mkdf-header-vertical {
+    .mkdf-vertical-dropdown-float {
+        .menu-item .second {
+            position: absolute;
+            top: 0;
+            left: calc(100% + 40px); /*because of the padding*/
+            width: 100%;
+            margin-left: 50px;
+            opacity: 0;
+            background-color: #fff;
+            visibility: hidden;
+
+            @include mkdfTransition(all 0.3s ease-in-out);
+
+            * {
+                visibility: hidden;
+
+                @include mkdfTransition(visibility 0.3s ease-in-out)
+            }
+        }
+
+        .menu-item .second.mkdf-float-open {
+            margin-left: 0px;
+            opacity: 1;
+            visibility: visible;
+
+            * {
+                visibility: visible;
+            }
+        }
+
+        .menu-item .second.vertical_menu_start ul li ul,
+        .menu-item .second.vertical_menu_start ul li ul * {
+            visibility: hidden;
+        }
+
+        .menu-item .second.vertical_menu_start ul li ul.mkdf-float-open,
+        .menu-item .second.vertical_menu_start ul li ul.mkdf-float-open * {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .second .inner ul {
+            width: 100%;
+        }
+
+        li.narrow .second .inner ul {
+            /*because of the .narrow styling*/
+            border: none;
+            padding: 0;
+        }
+
+        .second .inner ul ul {
+            position: absolute;
+            border: none;
+            top: 0;
+            left: 100%;
+            margin-left: 50px;
+            padding: 10px;
+            height: auto;
+            visibility: hidden;
+            width: 100%;
+            opacity: 0;
+            overflow: hidden;
+            z-index: 10;
+            background-color: #fff;
+            padding: 0;
+            transition: all 0.3s ease-in-out;
+
+            @include mkdfTransition(all 0.3s ease-in-out);
+        }
+
+        .second .inner ul ul.mkdf-float-open {
+            opacity: 1;
+            margin-left: 0;
+            visibility: visible;
+        }
+
+        .second .inner ul li a {
+            display: block;
+            height: auto;
+            font-weight: 400;
+            line-height: 18px;
+            color: $default-text-color;
+            margin: 0;
+            padding: 8px;
+            text-decoration: none;
+            position: relative;
+
+            @include mkdfTransition(color 0.15s ease-out);
+
+            &:hover {
+                color: $first-main-color;
+            }
+        }
+
+        ul li a .mkd_menu_arrow {
+            display: none;
+        }
+
+        .second .inner > ul > li > a .menu_icon {
+            @include mkdfTransition(color 0.15s ease-out);
+        }
+    }
+}

@@ -1,0 +1,335 @@
+/* ==========================================================================
+# Team style - begin
+========================================================================== */
+
+/* Team type main info on hover - begin
+========================================================================== */
+
+.mkdf-team {
+
+	&:not(.main-info-below-image) {
+		overflow:hidden;
+	}
+
+	.mkdf-team-inner {
+		overflow:hidden;
+		width: 100%;
+	}
+
+	.mkdf-team-image {
+		position:relative;
+		overflow: hidden;
+
+		img {
+			width: 97px;
+			height: 97px;
+			vertical-align: middle;
+
+			@include mkdfBorderRadius(50%);
+		}
+
+	}
+
+	.mkdf-team-description {
+		display: table;
+		width: 100%;
+		height: 100%;
+	}
+
+	.mkdf-team-text {
+		padding: 20px 0 20px;
+	}
+
+	.mkdf-team-social-wrapp {
+		margin: 18px 0 0 0;
+
+		.mkdf-icon-shortcode.circle, .mkdf-icon-shortcode.square {
+			width: 1.6em;
+			height: 1.6em;
+			line-height: 1.6em;
+		}
+	}
+
+	.mkdf-team-social {
+		display: table;
+		width: 100%;
+		height: 100%;
+
+		.mkd_icon_ion_icon:before,
+		.mkd_icon_linea_icon:before {
+			line-height: inherit;
+		}
+
+	}
+
+	.mkdf-team-social-inner {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+		position: relative;
+	}
+
+	.mkdf-team-social-holder {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left:0;
+		top: 0;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		display:table-cell;
+		vertical-align: middle;
+		background-color: #333333;
+		@include mkdfTransition(opacity 0.15s ease-out, background-color 0.15s ease-out);
+		@include mkdfTransform(translateZ(0px));
+
+		.social_icon {
+			font-size: inherit;
+			line-height: inherit;
+		}
+
+		.social_icon {
+			display: block;
+
+			&:before{
+				display: block;
+			}
+
+		}
+
+	}
+
+	&:hover {
+
+		.mkdf-team-social-holder{
+			opacity: 1;
+			filter: alpha(opacity=100);
+		}
+
+	}
+
+}
+
+.touch .mkdf-team .mkdf-team-social-holder {
+	cursor: pointer;
+}
+
+/* Team type main info on hover - end
+========================================================================== */
+
+/* Team type main info below image - begin
+========================================================================== */
+
+.mkdf-team.main-info-below-image {
+	-webkit-transform: translateZ(0);
+
+	.mkdf-team-info {
+		text-align: center;
+
+		.mkdf-team-name {
+			font-weight: 700;
+			margin-bottom: 14px;
+		}
+
+		.mkdf-team-name.light {
+			color: #ffffff;
+		}
+
+		h6.mkdf-team-position.light {
+			color: #ababab;
+		}
+
+		.mkdf-team-description.light p {
+			color: #fbfbfc;
+		}
+
+		.mkdf-team-position {
+			font-weight: 700;
+			font-size: 12px;
+			text-transform: uppercase;
+			margin-bottom: 9px;
+			color: #ababab;
+		}
+
+	}
+
+	.mkdf-team-image {
+		overflow: visible;
+		text-align: center;
+		margin-bottom: 33px;
+	}
+
+	.mkdf-team-social-wrapp ul {
+		list-style: none;
+		position: relative;
+		display: block;
+		z-index: 990;
+	}
+
+	.mkdf-team-social-wrapp ul li {
+
+		&:first-child {
+			bottom: 56px; /* social share icon + space between icons */
+			transition-delay: .5s;
+		}
+
+		&:nth-child(2) {
+			bottom: 102px; /* previous icon position + icon height + space between icons */
+			transition-delay: .4s;
+		}
+
+		&:nth-child(3) {
+			bottom: 148px;  /* previous icon position + icon height + space between icons */
+			transition-delay: .3s;
+		}
+
+		&:nth-child(4) {
+			bottom: 194px;  /* previous icon position + icon height + space between icons */
+			transition-delay: .2s;
+		}
+
+		&:nth-child(5) {
+			bottom: 240px;  /* previous icon position + icon height + space between icons */
+			transition-delay: .1s;
+		}
+
+	}
+
+	.mkdf-team-social.normal-social .mkdf-team-social-wrapp ul li {
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		text-align: center;
+		opacity: 0;
+		-webkit-transition: opacity .03s ease-out, position .1s ease-out;
+		transition:  opacity .03s ease-out, position .1s ease-out;
+
+		&:first-child {
+			bottom: 50px;
+		}
+
+		&:nth-child(2) {
+			bottom: 90px;
+		}
+
+		&:nth-child(3) {
+			bottom: 130px;
+		}
+
+		&:nth-child(4) {
+			bottom: 170px;
+		}
+
+		&:nth-child(5) {
+			bottom: 210px;
+		}
+
+	}
+
+	.mkdf-team-info {
+		margin-top: 0;
+		padding: 0px 20px 10px 20px;
+	}
+
+	.mkdf-team-text {
+		padding: 0;
+	}
+
+	&:hover {
+
+		.mkdf-team-social-wrapp ul li {
+			opacity: 1;
+			cursor: pointer;
+
+			&:first-child {
+				transition-delay: .1s;
+			}
+
+			&:nth-child(2) {
+				transition-delay: .2s;
+			}
+
+			&:nth-child(3) {
+				transition-delay: .3s;
+			}
+
+			&:nth-child(4) {
+				transition-delay: .4s;
+			}
+
+			&:nth-child(5) {
+				transition-delay: .5s;
+			}
+
+		}
+
+	}
+	.mkdf-team-social-wrapp.light .mkdf-icon-shortcode.circle,
+	.mkdf-team-social-wrapp.light .mkdf-icon-shortcode.square {
+		background-color: transparent;
+		border: 1px solid #474747;
+		margin-right: 5px;
+	}
+
+	.mkdf-icon-shortcode.circle .mkdf-icon-element,
+	.mkdf-icon-shortcode.square .mkdf-icon-element {
+		font-size: 11px;
+	}
+
+	.mkdf-icon-element {
+		background-color: $first-main-color;
+		border: 1px solid $first-main-color;
+		border-radius: 50%;
+	}
+
+	.mkdf-icon-shortcode {
+		[class*="facebook"] {
+			background-color: $facebook-color !important;
+			border: 1px solid transparent !important;
+		}
+
+		[class*="googleplus"] {
+			background-color: $googleplus-color !important;
+			border: 1px solid transparent !important;
+		}
+
+		[class*="twitter"] {
+			background-color: $twitter-color !important;
+			border: 1px solid transparent !important;
+		}
+
+		[class*="vimeo"] {
+			background-color: $vimeo-color !important;
+			border: 1px solid transparent !important;
+		}
+
+		[class*="instagram"] {
+			background-color: $instagram-color !important;
+			border: 1px solid transparent !important;
+		}
+
+		[class*="pinterest"] {
+			background-color: $pinterest-color !important;
+			border: 1px solid transparent !important;
+		}
+
+		[class*="tumblr"] {
+			background-color: $tumblr-color !important;
+			border: 1px solid transparent !important;
+		}
+
+		[class*="linkedin"] {
+			background-color: $linkedin-color !important;
+			border: 1px solid transparent !important;
+		}
+	}
+
+}
+
+/* Team type main info below image - end
+========================================================================== */
+
+/* ==========================================================================
+# Team style - end
+========================================================================== */

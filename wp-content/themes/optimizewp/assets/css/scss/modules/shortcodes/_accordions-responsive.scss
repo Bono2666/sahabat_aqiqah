@@ -1,0 +1,10 @@
+@media only screen and (max-width: $phone-portrait) {
+ 
+	.mkdf-accordion-holder:not(.mkdf-boxed) div.mkdf-accordion-content {
+		padding: 10px;
+	}
+
+	.mkdf-accordion-holder .mkdf-title-holder .mkdf-accordion-mark {
+		right: 10px;
+	}
+}

@@ -1,0 +1,87 @@
+.mkdf-portfolio-list-holder-outer.mkdf-ptf-gallery {
+	article {
+		.mkdf-ptf-item-title {
+			position: relative;
+			color: #fff;
+
+			a {
+				color: #fff;
+			}
+		}
+
+		.mkdf-ptf-item-title,
+		.mkdf-like {
+			z-index: 3;
+		}
+
+		.mkdf-ptf-category-holder {
+			font-family: $headings-font-family;
+			color: #fff;
+			font-weight: 700;
+			font-size: 12px;
+			text-transform: uppercase;
+		}
+
+		.mkdf-ptf-item-bottom {
+			position: relative;
+			margin-top: 5px;
+
+			.mkdf-ptf-category-holder {
+				padding-right: 50px;
+			}
+
+			.mkdf-like {
+				position: absolute;
+				right: 0;
+				top: 0;
+
+				color: #fff;
+			}
+		}
+
+		.mkdf-ptf-item-image-holder {
+			overflow: hidden;
+		}
+
+		.mkdf-portfolio-link {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 2;
+		}
+
+		.mkdf-ptf-item-text-overlay {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			background-color: rgba(0, 0, 0, 0.9);
+
+			@include mkdfTransition(opacity 0.3s ease-in-out);
+		}
+
+		.mkdf-ptf-item-text-overlay-inner {
+			@include mkdfTableLayout;
+		}
+
+		.mkdf-ptf-item-text-holder {
+			display: table-cell;
+			vertical-align: bottom;
+			padding: 20px;
+		}
+
+		&:hover {
+			.mkdf-ptf-item-overlay {
+				opacity: 1;
+			}
+		}
+
+		.mkdf-ptf-item-icons-holder {
+			margin: 10px 0;
+		}
+	}
+}

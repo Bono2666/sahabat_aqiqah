@@ -1,0 +1,16 @@
+[05-Aug-2026 19:09:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_HTML_Tag_Processor" not found in /home/sahaba89/public_html/wp-includes/html-api/class-wp-html-processor.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/html-api/class-wp-html-processor.php on line 144
+[05-Aug-2026 19:09:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Token_Map" not found in /home/sahaba89/public_html/wp-includes/html-api/html5-named-character-references.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/html-api/html5-named-character-references.php on line 38
+[10-Aug-2026 04:29:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_HTML_Tag_Processor" not found in /home/sahaba89/public_html/wp-includes/html-api/class-wp-html-processor.php:144
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/html-api/class-wp-html-processor.php on line 144
+[10-Aug-2026 04:29:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Token_Map" not found in /home/sahaba89/public_html/wp-includes/html-api/html5-named-character-references.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/html-api/html5-named-character-references.php on line 38

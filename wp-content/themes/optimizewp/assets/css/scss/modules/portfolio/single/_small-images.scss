@@ -1,0 +1,23 @@
+/* ==========================================================================
+# Portfolio Single Small Images - begin
+========================================================================== */
+
+.small-images {
+    .mkdf-portfolio-media .mkdf-portfolio-single-media {
+        margin-bottom: 38px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .mkdf-follow-portfolio-info {
+        position: relative;
+
+        //@include mkdfTransition(margin-top 0.2s ease);
+    }
+}
+
+/* ==========================================================================
+# Portfolio Single Small Images - end
+========================================================================== */

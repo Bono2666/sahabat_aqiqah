@@ -1,0 +1,96 @@
+/* ==========================================================================
+# Call to action style - begin
+========================================================================== */
+
+.mkdf-call-to-action {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	background-color: transparent;
+
+	.mkdf-call-to-action-row-75-25,
+	.mkdf-call-to-action-row-50-50,
+	.mkdf-call-to-action-row-66-33 {
+		display: table;
+		box-sizing: border-box;
+
+		width: 100%;
+	}
+
+	.mkdf-call-to-action-row-75-25 .mkdf-call-to-action-column1 {
+		width: 75%;
+	}
+
+	.mkdf-call-to-action-row-75-25 .mkdf-call-to-action-column2 {
+		width: 25%;
+	}
+
+	.mkdf-call-to-action-row-50-50 .mkdf-call-to-action-column1,
+	.mkdf-call-to-action-row-50-50 .mkdf-call-to-action-column2 {
+		width: 50%;
+	}
+
+	.mkdf-call-to-action-row-66-33 .mkdf-call-to-action-column1 {
+		width: 66%;
+	}
+
+	.mkdf-call-to-action-row-66-33 .mkdf-call-to-action-column2 {
+		width: 34%;
+	}
+
+	.mkdf-call-to-action-column2 {
+		text-align: right;
+	}
+
+	.mkdf-call-to-action-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.mkdf-text-wrapper .mkdf-call-to-action-icon-holder {
+		position: absolute;
+		height: 100%;
+		top: 0;
+	}
+
+	.mkdf-text-wrapper .mkdf-call-to-action-icon {
+		display: table;
+		height: 100%;
+
+		.mkdf-call-to-action-icon-inner {
+			display: table-cell;
+			height: 100%;
+			vertical-align: middle;
+
+			.mkdf-call-to-action-icon {
+				color: #8b8b8b;
+				font-size: 40px;
+				display: inline;
+			}
+
+		}
+	}
+
+}
+
+.mkdf-call-to-action {
+
+	h2 {
+		margin-bottom: 0;
+	}
+
+	h3 {
+		margin-bottom: 0;
+	}
+
+	&.with-icon {
+
+		.mkdf-text-wrapper .mkdf-call-to-action-text {
+			padding: 0 20px 0 70px;
+		}
+	}
+}
+
+/* ==========================================================================
+# Call to action style - end
+========================================================================== */

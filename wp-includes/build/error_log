@@ -1,0 +1,26 @@
+[05-Aug-2026 19:09:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function includes_url() in /home/sahaba89/public_html/wp-includes/build/constants.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/build/constants.php on line 13
+[05-Aug-2026 19:09:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/build/pages/font-library/page.php:317
+Stack trace:
+#0 /home/sahaba89/public_html/wp-includes/build/pages.php(9): require_once()
+#1 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/build/pages/font-library/page.php on line 317
+[05-Aug-2026 19:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/build/routes.php:103
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/build/routes.php on line 103
+[10-Aug-2026 04:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function includes_url() in /home/sahaba89/public_html/wp-includes/build/constants.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/build/constants.php on line 13
+[10-Aug-2026 04:29:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/build/pages/font-library/page.php:317
+Stack trace:
+#0 /home/sahaba89/public_html/wp-includes/build/pages.php(9): require_once()
+#1 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/build/pages/font-library/page.php on line 317
+[10-Aug-2026 04:29:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/build/routes.php:103
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/build/routes.php on line 103

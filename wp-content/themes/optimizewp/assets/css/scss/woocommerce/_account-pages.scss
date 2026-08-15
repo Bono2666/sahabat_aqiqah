@@ -1,0 +1,72 @@
+.woocommerce-account {
+
+	.woocommerce-MyAccount-navigation,
+	.woocommerce-MyAccount-content {
+	  position: relative;
+	  display: inline-block;
+	  vertical-align: middle;
+	  float: left;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+
+	.woocommerce-MyAccount-navigation {
+	  width: 30%;
+	  padding: 0 30px 0 0;
+
+	  	ul {
+		  padding: 0;
+		  margin: 0;
+		  list-style: none;
+		  border-top: 1px solid #e1e1e1;
+
+		  	li {
+			  margin: 0;
+			  padding: 10px 0;
+			  border-bottom: 1px solid #e1e1e1;
+
+			  	&.is-active a {
+				  color: $first-main-color;
+				}
+
+				a {
+					font-weight: 600;
+					color: $headings-text-color;
+
+					&:hover {
+						color: $first-main-color;
+					}
+				}
+			}
+		}
+	}
+
+	.woocommerce-MyAccount-content {
+		width: 70%;
+		padding: 0 0 0 30px;	
+	}
+
+	.woocommerce {
+
+		h2 {
+			margin-bottom: 15px;
+		}
+
+		.col2-set {
+			@include row();
+
+		.col-1,
+		.col-2 {
+				@include col();
+			}
+		}
+
+		input[type=text],
+		input[type=email],
+		input[type=tel],
+		textarea {
+			@include inputStyle();
+		}
+	}
+}

@@ -1,0 +1,71 @@
+.mkdf-header-standard {
+    .mkdf-menu-area {
+        background-color: #fff;
+		border-bottom: 1px solid #f2f2f2;
+
+		@include mkdfBoxSizing(border-box);
+
+        .mkdf-vertical-align-containers {
+            .mkdf-position-right-inner{
+                height: 100%;
+				display: initial;
+            }
+        }
+
+		.mkdf-main-menu-widget-area {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 8px;
+			height: 100%;
+		}
+
+		.mkdf-main-menu-widget-area-inner {
+			display: table;
+			height: 100%;
+		}
+
+		.mkdf-right-from-main-menu-widget {
+			display: table;
+			float: left;
+			padding: 0 16px;
+			position: relative;
+			vertical-align: middle;
+			height: 100%;
+
+			&:last-child {
+				padding-right: 0;
+			}
+
+			.mkdf-right-from-main-menu-widget-inner {
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 0;
+				height: 25px;
+				width: 1px;
+				background-color: #f2f2f2;
+
+				@include mkdfTransform(translateY(-50%));
+			}
+		}
+    }
+
+	&.mkdf-light-header .mkdf-menu-area .mkdf-right-from-main-menu-widget:before {
+		background-color: rgba($header-light-color, 0.5);
+	}
+
+	&.mkdf-dark-header .mkdf-menu-area .mkdf-right-from-main-menu-widget:before {
+		background-color: rgba($header-dark-color, 0.5);
+	}
+
+	&.mkdf-header-standard-border-disable .mkdf-menu-area {
+		border-bottom: none;
+	}
+}
+

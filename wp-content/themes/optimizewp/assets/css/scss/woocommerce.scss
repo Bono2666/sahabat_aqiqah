@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'mixins';
+
+/*------------------------------------------------------------------
+ * This is woocommerce css file for theme. It is broken into following sections:
+ * 1.  Global styles
+ * 2.  Product list styles
+ * 3.  Product single styles
+ * 4.  Widget styles
+ * 5.  Cart page styles
+ * 6.  Checkout page styles
+ * 7.  Account pages styles
+-------------------------------------------------------------------*/
+
+
+/* 1. Global styles
+   ========================================================================== */
+@import 'woocommerce/global';
+
+/* 2. Product list styles
+   ========================================================================== */
+@import 'woocommerce/list';
+
+/* 3. Product single styles
+   ========================================================================== */
+@import 'woocommerce/single';
+
+/* 4. Widget styles
+   ========================================================================== */
+@import 'woocommerce/widgets';
+
+/* 5.  Cart page styles
+   ========================================================================== */
+@import 'woocommerce/cart-page';
+
+/* 6.  Checkout page styles
+   ========================================================================== */
+@import 'woocommerce/checkout-page';
+
+/* 7.  Account pages styles
+   ========================================================================== */
+@import 'woocommerce/account-pages';

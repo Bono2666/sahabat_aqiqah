@@ -1,0 +1,163 @@
+1.15
+- Added Optimize Dashboard
+- Added WooCommerce 3.8.1 compatibility
+- Updated Mikado Core to 1.4
+- Updated Visual Composer to 6.1
+- Updated Revolution Slider to 6.1.5
+- Updated Mikado Instagram Feed plugin to 1.1.1
+- Updated Mikado Twitter Feed plugin to 1.1.1
+- Fixed Sticky Header Menu text color customization
+- Fixed Social Share Twitter behavior
+- Improved Import
+- Improved Welcome Page
+- Changed Mikado Options Position
+- Removed unused file instagram-redirect.php from Mikado Instagram Widget plugin
+- Removed unused file twitter-redirect.php from Mikado Twitter Feed plugin
+
+1.14
+- Added WooCommerce 3.7.0 compatibility
+- Updated Visual Composer to 6.0.5
+- Updated Revolution Slider to 6.1.0
+- Updated Mikado Core plugin to 1.3.3
+- Fixed button on Hover Box
+- Fixed hover on Info Box
+- Improved Social Share shortcode
+
+1.13
+- Added WooCommerce 3.6.5 compatibility
+- Updated WPBakery Page Builder to 6.0.3
+- Updated Mikado Core plugin to 1.3.2
+- Fixed Social Share error
+
+1.12.1
+- Updated Mikado Core plugin to 1.3.2
+- Fixed Social Share error
+
+1.12
+- Added WooCommerce 3.6 compatibility
+- Updated Visual Composer to 5.7
+- Updated Revolution Slider to 5.4.8.3
+- Updated Mikado Core plugin to 1.3.1
+- Updated Mikado Instagram Feed plugin to 1.1
+- Updated Mikado Twitter Feed plugin to 1.1
+- Updated pot file
+- Improved theme functions
+- Improved theme security
+- Improved import functionality
+- Escaped all variables, text domains etc.
+- Moved Widgets and Shortcodes to Core Plugin
+
+1.11
+- Added WordPress 5 compatibility
+- Added WooCommerce 3.5.3 compatibility
+- Added comment approval box for GDPR compliance
+- Updated Visual Composer to 5.6
+- Updated Revolution Slider to 5.4.8.1
+- Updated Envato Market to 2.0.1
+- Fixed http/https links
+- Fixed testimonials speed bug
+- Fixed child theme bug
+
+1.10
+- Added WooCommerce 3.4.4 compatibility
+- Added compatibility with Gutenberg plugin
+- Updated Visual Composer to 5.5.2
+- Updated Revolution Slider to 5.4.8
+- Updated Envato Market to 2.0.0
+
+1.9
+- Added WooCommerce 3.3.5 compatibility
+- Added compatibility with PHP 7.2
+- Added Envato Market plugin as required
+- Added recommended plugins (WooCommerce and Contact Form 7)
+- Updated core plugin to 1.0.1
+- Updated Visual Composer to 5.4.7
+- Updated Revolution Slider to 5.4.7.2
+- Fixed header misalignment on latest chrome version
+- Fixed text domain for comment form Submit button
+- Improved menu import functionality
+
+1.8.2
+- Updated Visual Composer to 5.2.1
+- Updated Font Awesome icons to version 4.7
+
+1.8.1
+- Updated Visual Composer to 5.2
+- Fixed potential security issue when saving theme options
+
+1.8
+- Added WooCommerce 3.1.0 compatibility
+- Updated Revolution Slider to 5.4.5.1
+
+1.7
+- Added WooCommerce 3+ compatibility
+- Updated Revolution Slider to 5.4.3.1
+- Updated Visual Composer to 5.1.1
+
+1.6
+- Added WooCommerce 2.6.9 compatibility
+- Updated Revolution Slider to 5.3.1
+- Fixed single portfolio lightbox
+- Fixed the issue with the error on category pages
+- Fixed the issue with video post type on HTTPS websites
+- Fixed WooCommerce styles
+
+1.5
+- Added WooCommerce 2.6.8 compatibility
+- Updated Visual Composer to version 5.0.1
+- Updated Revolution Slider to 5.3.0.2
+- Updated Mikado Core to 1.2
+- Fixed the issue with Mikado content bottom area background color
+- Fixed the issue with shop archive sidebar
+- Fixed script loading for dynamic styles
+
+1.4
+- Added WordPress 4.6.1 compatibility
+- Added option for Google maps api key
+- Updated Visual Composer to 4.12.1
+- Updated Font Awesome icons to version 4.6.3
+- Updated TGM Plugin Activation to 2.6.1
+
+1.3.1
+- Updated Woocommerce template files for 2.6.4 compatibility
+- Updated revolution slider to 5.2.6
+- Updated Mikado Instagram Feed plugin to 1.0.2
+
+1.3
+- Added Woocommerce 2.6.1 compatibility
+- Updated Visual Composer to 4.12
+- Updated Revolution Slider to 5.2.5.4
+- Fixed Social Share functionality
+
+1.2.1
+- Updated Visual Composer to 4.11.2.1
+- Updated Revolution Slider to 5.2.5
+
+1.2
+- Added WordPress 4.5 compatibility
+- Updated Visual Composer to 4.11.1
+- Fixed styling bug with WooCommerce price filter button
+- Fixed bug with first main color and buttons
+
+1.1.1
+- Improved WooCommerce default cart widget styles
+- Improved WooCommerce messages styles
+- Improved WooCommerce cart page responsive
+- Fixed bug with WooCommerce widgets on pages other than default shop page
+- Fixed bug with child theme
+
+1.1
+- Added option for custom image dimensions for portfolio list shortcode
+- Added option for custom image dimensions for portfolio slider shortcode
+- Added Yoast SEO plugin compatibility
+- Added All in One SEO plugin compatibility
+- Added Rankie plugin compatibility
+- Added image width and height attributes on all logo images for better performance
+- Updated Mikado Core plugin to version 1.1
+- Updated Mikado Instagram plugin to version 1.0.1
+- Updated Mikado Twitter plugin to version 1.0.1
+- Updated translation file
+- Updated documentation
+- Fixed Instagram connection bug
+- Fixed Twitter connection bug
+- Fixed bug with search submit button on Mac

@@ -1,0 +1,72 @@
+[05-Aug-2026 19:09:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/comments.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/comments.php on line 9
+[05-Aug-2026 19:09:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/sahaba89/public_html/wp-includes/theme-compat/embed-404.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/embed-404.php on line 14
+[05-Aug-2026 19:09:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home/sahaba89/public_html/wp-includes/theme-compat/embed-content.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/embed-content.php on line 13
+[05-Aug-2026 19:09:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sahaba89/public_html/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/embed.php on line 13
+[05-Aug-2026 19:09:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/sahaba89/public_html/wp-includes/theme-compat/footer-embed.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/footer-embed.php on line 18
+[05-Aug-2026 19:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/footer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/footer.php on line 9
+[05-Aug-2026 19:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/sahaba89/public_html/wp-includes/theme-compat/header-embed.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/header-embed.php on line 19
+[05-Aug-2026 19:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/header.php on line 9
+[05-Aug-2026 19:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/sidebar.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/sidebar.php on line 9
+[10-Aug-2026 04:30:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/comments.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/comments.php on line 9
+[10-Aug-2026 04:30:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/sahaba89/public_html/wp-includes/theme-compat/embed-404.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/embed-404.php on line 14
+[10-Aug-2026 04:30:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home/sahaba89/public_html/wp-includes/theme-compat/embed-content.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/embed-content.php on line 13
+[10-Aug-2026 04:30:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sahaba89/public_html/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/embed.php on line 13
+[10-Aug-2026 04:30:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/sahaba89/public_html/wp-includes/theme-compat/footer-embed.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/footer-embed.php on line 18
+[10-Aug-2026 04:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/footer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/footer.php on line 9
+[10-Aug-2026 04:30:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/sahaba89/public_html/wp-includes/theme-compat/header-embed.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/header-embed.php on line 19
+[10-Aug-2026 04:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/header.php on line 9
+[10-Aug-2026 04:30:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/theme-compat/sidebar.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/theme-compat/sidebar.php on line 9

@@ -1,0 +1,136 @@
+/* ==========================================================================
+   Social Icon widget start styles
+   ========================================================================== */
+
+.mkdf-social-icon-widget-holder {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+
+    .mkdf-social-icon-widget {
+        color: inherit;
+        line-height: inherit;
+        font-size: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+    }
+
+    .mkdf-top-bar & ,
+    footer & {
+        color: #fff;
+    }
+}
+
+.mkdf-footer-bottom-holder .widget_mkd_social_icon_widget {
+	display: inline-block;
+	border-left: 1px solid rgba(74, 74, 74, 0.55);
+	vertical-align: middle;
+	margin-right: -4px;
+
+	@include mkdfBoxSizing(border-box);
+
+	&:last-child {
+		border-right: 1px solid rgba(74, 74, 74, 0.55);
+	}
+
+	a {
+		display: table;
+		height: 100%;
+		padding: 16px 5px;
+		font-size: 16px;
+		height: 60px;
+		width: 60px;
+		text-align: center;
+
+		@include mkdfTransition(background-color 0.15s ease-out);
+
+		@include mkdfBoxSizing(border-box);
+	}
+
+}
+
+body:not(.mkdf-top-bar-disabled-social-hover) .mkdf-top-bar,
+.mkdf-footer-bottom-holder {
+	a[class*='facebook']:hover {
+		background-color: $facebook-color;
+	}
+
+	a[class*='google']:hover {
+		background-color: $googleplus-color;
+	}
+
+	a[class*='twitter']:hover {
+		background-color: $twitter-color;
+	}
+
+	a[class*='vimeo']:hover {
+		background-color: $vimeo-color;
+	}
+
+	a[class*='instagram']:hover {
+		background-color: $instagram-color;
+	}
+
+	a[class*='pinterest']:hover,
+	a[class*='pintarest']:hover {
+		background-color: $pinterest-color;
+	}
+
+	a[class*='tumblr']:hover {
+		background-color: $tumblr-color;
+	}
+
+	a[class*='linkedin']:hover {
+		background-color: $linkedin-color;
+	}
+}
+
+.mkdf-top-bar .widget_mkd_social_icon_widget {
+	margin: 0;
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+	border-left: 1px solid rgba(#4a4a4a, 0.55);
+	
+	.mkdf-top-bar-light & {
+		border-color: rgba($header-light-color, 0.14);
+	}
+
+	.mkdf-top-bar-dark & {
+		border-color: rgba($header-dark-color, 0.14);
+	}
+
+	&:last-child {
+		border-right: 1px solid rgba(#4a4a4a, 0.55);
+
+		.mkdf-top-bar-light & {
+			border-color: rgba($header-light-color, 0.14);
+		}
+
+		.mkdf-top-bar-dark & {
+			border-color: rgba($header-dark-color, 0.14);
+		}
+	}
+
+	.mkdf-top-bar-widget-inner {
+		height: 100%;
+	}
+
+	a {
+		display: table;
+		height: 100%;
+		vertical-align: middle;
+		padding: 0 16px;
+
+		@include mkdfTransition(background-color 0.15s ease-out);
+	}
+
+	.mkdf-social-icon-widget {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+/* ==========================================================================
+   Social Icon widget end styles
+   ========================================================================== */

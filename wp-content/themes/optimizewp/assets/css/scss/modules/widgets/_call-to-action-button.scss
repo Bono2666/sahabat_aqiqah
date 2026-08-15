@@ -1,0 +1,39 @@
+.widget_mkdf_call_to_action_button {
+	&.mkdf-top-bar-widget {
+		display: block;
+
+		.mkdf-top-bar-widget-inner {
+			display: block;
+			height: 100%;
+		}
+	}
+
+
+
+	.mkdf-call-to-action-button {
+		display: block;
+		height: 100%;
+
+		background-color: $first-main-color;
+		color: #fff;
+		padding: 0 23px 0 18px;
+		font-size: 12px;
+
+		@include mkdfBoxSizing(border-box);
+
+		.mkdf-ctab-holder {
+			display: block;
+			position: relative;
+			vertical-align: middle;
+			top: 50%;
+
+			@include mkdfTransform(translateY(-50%));
+		}
+
+		.mkdf-ctab-icon {
+			margin-right: 9px;
+			font-size: 18px;
+			vertical-align: middle;
+		}
+	}
+}

@@ -1,0 +1,55 @@
+/* ==========================================================================
+# Unordered List Style - begin
+========================================================================== */
+
+.mkdf-unordered-list ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+    
+    >li {
+        position: relative;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 11px;
+        font-family: $headings-font-family;
+    }    
+}
+.mkdf-unordered-list.mkdf-line  ul {
+    list-style-type: none;
+    
+    >li{
+        padding-left: 9px;
+        margin-bottom: 11px;
+        
+        &:before {
+            height: 20px;
+            width: auto;
+            line-height: 20px;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 1px;
+            padding: 0;
+            color: #959595;
+            text-align: center;
+            content: '-';
+        }
+    }
+    
+    
+}
+.mkdf-unordered-list.mkdf-animate-list ul li{
+    opacity: 0;
+    top: -40px;
+}
+
+.touch .no_animation_on_touch .mkdf-unordered-list.mkdf-animate-list  ul li{
+    opacity: 1;
+    top: 0;
+}
+
+/* ==========================================================================
+# Unordered List Style - end
+========================================================================== */

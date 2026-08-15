@@ -1,0 +1,126 @@
+@import "types/float";
+//@import "types/on-click";
+//@import "types/on-hover";
+//@import "types/slide-in";
+
+.mkdf-header-vertical {
+    .mkdf-vertical-menu {
+        position: relative;
+        z-index: 101;
+        margin: 40px 0 0;
+        text-align: left;
+
+        ul {
+            position: relative;
+            list-style-type: none;
+        }
+
+        ul li {
+            position: relative;
+        }
+
+        ul li a:hover {
+            color: $first-main-color;
+        }
+
+        & > ul > li > a {
+            position: relative;
+            display: block;
+            padding: 8px 0px;
+            line-height: 18px;
+            color: $default-text-color;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0;
+            cursor: pointer;
+
+            @include mkdfTransition(
+                    color 0.15s ease-out,
+                    text-decoration 0.15s ease-out,
+                    background-color 0.15s ease-out
+            );
+        }
+
+        & > ul > li > a:before {
+            content: '';
+            display: block;
+            opacity: 0;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            background-color: $first-main-color;
+            -webkit-transition: background-color 0.2s ease-out, opacity 0.2s ease-out;
+            -moz-transition: background-color 0.2s ease-out, opacity 0.2s ease-out;
+            -o-transition: background-color 0.2s ease-out, opacity 0.2s ease-out;
+            -ms-transition: background-color 0.2s ease-out, opacity 0.2s ease-out;
+            transition: background-color 0.2s ease-out, opacity 0.2s ease-out;
+
+            @include mkdfTransition(background-color 0.2s ease-out, opacity 0.2s ease-out);
+        }
+
+        & > ul > li > a:after {
+            display: none;
+            height: 1px;
+            width: 44px;
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: $first-main-color;
+        }
+
+        & > ul > li > a > span.item_inner {
+            @include mkdfTransition(text-decoration 0.2s ease-out);
+        }
+        
+        & > ul > li:last-child > a:after {
+            content: none;
+        }
+
+        ul > li.menu-item-has-children > a .plus {
+            width: 14px;
+            height: 14px;
+            z-index: 10000;
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            display: block;
+            color: #9d9d9d;
+            font-size: 14px;
+            line-height: 14px;
+            font-family: 'ElegantIcons';
+            cursor: pointer;
+
+            @include mkdfTransform(translateY(-50%));
+        }
+
+        ul > li.menu-item-has-children > a .plus:before {
+            content: "\4c";
+        }
+
+        ul > li.menu-item-has-children.open > a .plus:before,
+        ul > li.menu-item-has-children.current-menu-ancestor > a .plus:before {
+            content: "\4b";
+        }
+
+        ul > li.menu-item-has-children a .plus {
+            display: block;
+        }
+
+        .second .inner {
+            position: relative;
+            display: block;
+            padding: 0;
+            z-index: 997;
+        }
+
+        .menu_icon:not(.blank):not(.null) {
+            padding-right: 5px;
+        }
+    }
+}

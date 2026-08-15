@@ -1,0 +1,272 @@
+.mkdf-btn {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    padding: 13px 40px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-family: $headings-font-family;
+	font-size: 14px;
+	line-height: 1.7em;
+	text-transform: uppercase;
+	text-align: center;
+
+	cursor: pointer;
+
+    @include mkdfTransition(color 0.25s ease-out, background-color 0.25s ease-out, border-color 0.25s ease-out);
+    @include mkdfBoxSizing(border-box);
+
+	.mkdf-btn-icon-holder {
+		.mkdf-btn-icon-elem {
+			vertical-align: middle;
+		}
+	}
+
+	.mkdf-btn-icon-holder,
+	.mkdf-btn-text {
+		position: relative;
+		z-index: 2;
+	}
+
+	&.mkdf-btn-icon .mkdf-btn-text {
+		margin-right: 6px;
+	}
+
+	.mkdf-btn-helper {
+		position: absolute;
+		z-index: 1;
+
+		@include mkdfTransition(all 0.25s ease-out);
+	}
+
+	/* #Button types styles - start
+	   ========================================================================== */
+    &.mkdf-btn-solid {
+        background-color: $first-main-color;
+        border: 2px solid $first-main-color;
+        color: #fff;
+    }
+
+    &.mkdf-btn-outline {
+        border: 2px solid $first-main-color;
+        color: $first-main-color;
+        background-color: transparent;
+    }
+
+	&.mkdf-btn-white {
+		border: 2px solid #fff;
+		background-color: #fff;
+	}
+
+	&.mkdf-btn-white-outline {
+		border: 2px solid #fff;
+		background-color: transparent;
+		color: #fff;
+	}
+
+	&.mkdf-btn-black {
+		border: 2px solid #303030;
+		color: #fff;
+		background-color: #303030;
+	}
+	/* #Button types styles - end
+	   ========================================================================== */
+
+	/* #Button hover types styles - start
+    ========================================================================== */
+	&.mkdf-btn-hover-outline {
+		&:not(.mkdf-btn-custom-hover-color):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			color: $first-main-color !important;
+		}
+
+		&:not(.mkdf-btn-custom-hover-bg):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			background-color: transparent !important;
+		}
+
+		&:not(.mkdf-btn-custom-border-hover):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			border-color: $first-main-color !important;
+		}
+	}
+
+	&.mkdf-btn-hover-solid {
+		&:not(.mkdf-btn-custom-hover-color):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			color: #fff !important;
+		}
+
+		&:not(.mkdf-btn-custom-hover-bg):not(.mkdf-btn-with-animation):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			background-color: $first-main-color !important;
+		}
+
+		.mkdf-btn-helper {
+			background-color: $first-main-color;
+		}
+
+		&:not(.mkdf-btn-custom-border-hover):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			border-color: $first-main-color !important;
+		}
+	}
+
+	&.mkdf-btn-hover-white {
+		&:not(.mkdf-btn-custom-hover-color):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			color: $first-main-color !important;
+		}
+
+		&:not(.mkdf-btn-custom-hover-bg):not(.mkdf-btn-with-animation):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			background-color: #fff !important;
+		}
+
+		.mkdf-btn-helper {
+			background-color: #fff;
+		}
+
+		&:not(.mkdf-btn-custom-border-hover):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			border-color: #fff !important;
+		}
+	}
+
+	&.mkdf-btn-hover-white-outline {
+		&:not(.mkdf-btn-custom-hover-color):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			color: #fff !important;
+		}
+
+		&:not(.mkdf-btn-custom-hover-bg):not(.mkdf-btn-with-animation):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			background-color: transparent !important;
+		}
+
+		&:not(.mkdf-btn-custom-border-hover):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			border-color: #fff !important;
+		}
+	}
+
+	&.mkdf-btn-hover-black {
+		&:not(.mkdf-btn-custom-hover-color):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			color: #fff !important;
+		}
+
+		&:not(.mkdf-btn-custom-hover-bg):not(.mkdf-btn-with-animation):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			background-color: #303030 !important;
+		}
+
+		.mkdf-btn-helper {
+			background-color: #303030;
+		}
+
+		&:not(.mkdf-btn-custom-border-hover):hover {
+			//important because of inline color attribute. :not is used so we don't have to use important in JS
+			border-color: #303030 !important;
+		}
+	}
+
+	/* #Button hover types styles - end
+	========================================================================== */
+
+
+	/* #Button sizes styles - start
+	   ========================================================================== */
+    &.mkdf-btn-small {
+        font-size: 10px;
+        padding: 9px 30px;
+		min-width: 95px;
+
+		font-weight: 600;
+
+		&.mkdf-btn-icon .mkdf-btn-text {
+			margin-right: 2px;
+		}
+    }
+
+    &.mkdf-btn-medium {
+        //same as default
+		min-width: 145px;
+    }
+
+    &.mkdf-btn-large {
+        font-size: 16px;
+        padding: 14.5px 50px;
+		min-width: 165px;
+    }
+
+	&.mkdf-btn-huge {
+		min-width: 190px;
+	}
+
+    &.mkdf-btn-huge,
+    &.mkdf-btn-huge-full-width {
+        font-size: 18px;
+        padding: 18px 60px;
+    }
+
+    &.mkdf-btn-huge-full-width {
+        display: block;
+        text-align: center;
+    }
+	/* #Button sizes styles - end
+	   ========================================================================== */
+
+
+	/* #Hover animations - start
+	   ========================================================================== */
+	&.mkdf-btn-fill-from-top {
+		.mkdf-btn-helper {
+			width: 100%;
+			height: 0;
+			top: 0;
+			left: 0;
+		}
+
+		&:hover .mkdf-btn-helper {
+			height: 100%;
+		}
+	}
+
+	&.mkdf-btn-fill-from-left {
+		.mkdf-btn-helper {
+			width: 0;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		&:hover .mkdf-btn-helper {
+			width: 100%;
+		}
+	}
+
+	&.mkdf-btn-fill-from-right {
+		.mkdf-btn-helper {
+			width: 0;
+			height: 100%;
+			top: 0;
+			right: 0;
+		}
+
+		&:hover .mkdf-btn-helper {
+			width: 100%;
+		}
+	}
+
+	/* #Hover animations - end
+	   ========================================================================== */
+}
+
+.woocommerce .button {
+	@extend .mkdf-btn;
+	@extend .mkdf-btn-solid;
+	@extend .mkdf-btn-medium;
+	@extend .mkdf-btn-hover-outline;
+}

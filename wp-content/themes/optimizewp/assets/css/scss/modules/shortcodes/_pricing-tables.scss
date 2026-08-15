@@ -1,0 +1,137 @@
+/* ==========================================================================
+# Pricing table style - begin
+========================================================================== */
+
+.mkdf-pricing-tables.mkdf-two-columns .mkdf-price-table {
+	width: 50%;
+}
+
+.mkdf-pricing-tables.mkdf-three-columns .mkdf-price-table {
+	width: 33.33%;
+}
+
+.mkdf-pricing-tables.mkdf-four-columns .mkdf-price-table {
+	width: 25%;
+}
+
+.mkdf-price-table {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	padding: 0 15px;
+	float: left;
+
+	@include mkdfBoxSizing(border-box);
+
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+.mkdf-price-table .mkdf-price-table-inner {
+	background-color: #fff;
+	border: 1px solid #f2f2f2;
+	text-align: center;
+	padding: 55px 20px 35px;
+
+	@include mkdfBoxSizing(border-box);
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.mkdf-title-content,
+	.mkdf-price {
+		margin: 0;
+	}
+
+	.mkdf-title-content {
+		color: #545454;
+	}
+
+	.mkdf-table-title {
+		margin-bottom: 24px;
+	}
+
+	.mkdf-price-in-table {
+		margin-bottom: 3px;
+	}
+
+	.mkdf-pt-price-period {
+		font-family: $headings-font-family;
+		font-size: 16px;
+		color: #ababab;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	.mkdf-table-content {
+		margin-top: 34px;
+
+		font-size: 18px;
+		font-weight: 500;
+		color: #545454;
+		line-height: 30px;
+	}
+
+	.mkdf-price-button {
+		margin-top: 38px;
+	}
+
+	.mkdf-pt-label-holder {
+		position: absolute;
+		top: -18px;
+		right: 64px;
+
+		.mkdf-pt-label-inner {
+			background-color: $first-main-color;
+			padding: 5px 15px 5px 18px;
+
+			color: #fff;
+			font-family: $headings-font-family;
+			color: #fff;
+			font-size: 12px;
+			font-weight: 600;
+			text-transform: uppercase;
+
+			border-top-left-radius: 20px;
+			border-bottom-left-radius: 20px;
+
+			@include mkdfTransform(rotate(-90deg) perspective(1px));
+			@include mkdfTransformOrigin(right);
+			@include mkdfBoxSizing(border-box);
+		}
+	}
+
+	.mkdf-pt-label-content {
+		@include mkdfTransform(rotate(180deg) translateZ(0));
+		@include mkdfTransformOrigin(center);
+	}
+}
+
+.mkdf-price-table.mkdf-pt-active {
+	.mkdf-price-table-inner {
+		background-color: $first-main-color;
+		border-color: transparent;
+
+		color: #fff;
+
+		.mkdf-title-content,
+		.mkdf-pt-price-period,
+		.mkdf-table-content,
+		.mkdf-price {
+			color: inherit;
+		}
+
+		.mkdf-pt-label-inner {
+			background-color: #fff;
+			color: #545454;
+		}
+	}
+}
+
+/* ==========================================================================
+# Pricing table style - end
+========================================================================== */

@@ -1,0 +1,25 @@
+@include ipad-landscape {
+	.mkdf-blog-list-holder {
+		&.mkdf-four-columns > ul > li {
+			width: 50%;
+		}
+	}
+}
+
+@include ipad-portrait {
+	.mkdf-blog-list-holder {
+		&.mkdf-two-columns > ul > li,
+		&.mkdf-three-columns > ul > li,
+		&.mkdf-four-columns > ul > li {
+			width: 100%;
+		}
+	}
+
+	.mkdf-blog-list-holder.mkdf-minimal .mkdf-blog-list-item {
+		padding: 10px 0 10px;
+	}
+
+	footer .mkdf-footer-top:not(.mkdf-footer-top-full) .mkdf-container-inner {
+		padding: 20px 0 50px;
+	}
+}

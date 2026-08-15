@@ -1,0 +1,52 @@
+.mkdf-vertical-progress-bar-holder {
+	* {
+		@include mkdfBoxSizing(border-box);
+	}
+
+	h6 {
+		margin-top: 0;
+	}
+
+	.mkdf-vpb-content {
+		margin-top: 12px;
+	}
+
+	.mkdf-vpb-bar {
+		height: 275px;
+		width: 100%;
+		position: relative;
+	}
+
+	.mkdf-vpb-active-bar,
+	.mkdf-vpb-inactive-bar {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+
+	.mkdf-vpb-inactive-bar {
+		background-color: #f6f8f9;
+		z-index: -1;
+		height: 100%;
+	}
+
+	.mkdf-vpb-percent {
+		position: relative;
+		padding-left: 10px;
+		top: -25px;
+
+		//@include mkdfTransform(translateY(-100%) translateZ(0));
+		backface-visibility: hidden;
+
+		@include mkdfTransform(translateZ(0));
+
+		h6 {
+			margin: 0;
+		}
+	}
+
+	.mkdf-vpb-active-bar {
+		background-color: $first-main-color;
+	}
+}

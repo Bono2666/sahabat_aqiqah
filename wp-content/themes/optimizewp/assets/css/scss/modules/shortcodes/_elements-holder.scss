@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Elements Holder start style
+   ========================================================================== */
+
+.mkdf-elements-holder {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+
+	&.mkdf-two-columns {
+
+		.mkdf-elements-holder-item {
+			width: 50%;
+		}
+	}
+
+	&.mkdf-two-columns {
+
+		.mkdf-elements-holder-item {
+			width: 50%;
+		}
+	}
+
+	&.mkdf-three-columns {
+
+		.mkdf-elements-holder-item {
+			width: 33%;
+		}
+	}
+
+	&.mkdf-four-columns {
+
+		.mkdf-elements-holder-item {
+			width: 25%;
+		}
+	}
+
+	&.mkdf-five-columns {
+
+		.mkdf-elements-holder-item {
+			width: 20%;
+		}
+	}
+
+	&.mkdf-six-columns {
+
+		.mkdf-elements-holder-item {
+			width: 16%;
+		}
+	}
+
+	.mkdf-elements-holder-item {
+
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+		background-size: cover;
+
+		&.mkdf-vertical-alignment-top {
+			vertical-align: top;
+		}
+
+		&.mkdf-vertical-alignment-bottom {
+			vertical-align: bottom;
+		}
+
+		&.mkdf-horizontal-alignment-center {
+			text-align: center;
+		}
+
+		&.mkdf-horizontal-alignment-right {
+			text-align: right;
+		}
+
+		.mkdf-elements-holder-item-inner {
+			width: 100%;
+		}
+	}
+
+	&.mkdf-elements-items-float {
+
+		&.mkdf-three-columns {
+
+			.mkdf-elements-holder-item {
+				width: 33.33333333333333%;
+			}
+		}
+
+		&.mkdf-six-columns {
+
+			.mkdf-elements-holder-item {
+				width: 16.66666666666667%;
+			}
+		}
+
+		.mkdf-elements-holder-item {
+			float:left;
+		}
+	}
+
+	.mkdf-elements-holder-item-content{
+		padding: 0 20px;
+	}
+
+}
+/* ==========================================================================
+   End of Elements Holder style
+   ========================================================================== */

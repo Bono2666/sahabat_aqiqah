@@ -1,0 +1,434 @@
+[05-Aug-2026 19:10:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home/sahaba89/public_html/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-patterns.php on line 9
+[05-Aug-2026 19:10:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/cache.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/cache.php on line 12
+[05-Aug-2026 19:10:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-feed.php on line 10
+[05-Aug-2026 19:10:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-http.php on line 11
+[05-Aug-2026 19:10:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-json.php on line 2
+[05-Aug-2026 19:10:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-oembed.php on line 12
+[05-Aug-2026 19:10:04 UTC] PHP Deprecated:  The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. in /home/sahaba89/public_html/wp-includes/class-requests.php on line 21
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/class-simplepie.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-simplepie.php on line 8
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-smtp.php on line 6
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-snoopy.php on line 6
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-category-dropdown.php on line 17
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-category.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-category.php on line 17
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-comment.php on line 17
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[05-Aug-2026 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[05-Aug-2026 19:10:05 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-page.php on line 17
+[05-Aug-2026 19:10:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/class-wp-customize-section.php:408
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-customize-section.php on line 408
+[05-Aug-2026 19:10:10 UTC] PHP Fatal error:  Uncaught Error: Interface "SimplePie\Cache\Base" not found in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache-transient.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache-transient.php on line 18
+[05-Aug-2026 19:10:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache.php on line 11
+[05-Aug-2026 19:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "IXR_Client" not found in /home/sahaba89/public_html/wp-includes/class-wp-http-ixr-client.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[05-Aug-2026 19:10:12 UTC] PHP Fatal error:  Uncaught Error: Class "WpOrg\Requests\Hooks" not found in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-hooks.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-hooks.php on line 18
+[05-Aug-2026 19:10:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_HTTP_Response" not found in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-response.php on line 17
+[05-Aug-2026 19:10:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-gd.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-gd.php on line 16
+[05-Aug-2026 19:10:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-imagick.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-imagick.php on line 16
+[05-Aug-2026 19:10:15 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in /home/sahaba89/public_html/wp-includes/class-wp-phpmailer.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-phpmailer.php on line 16
+[05-Aug-2026 19:10:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/sahaba89/public_html/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-scripts.php on line 18
+[05-Aug-2026 19:10:16 UTC] PHP Fatal error:  Uncaught Error: Class "SimplePie\File" not found in /home/sahaba89/public_html/wp-includes/class-wp-simplepie-file.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-simplepie-file.php on line 19
+[05-Aug-2026 19:10:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/sahaba89/public_html/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-styles.php on line 18
+[05-Aug-2026 19:10:17 UTC] PHP Fatal error:  Uncaught Error: Class "Text_Diff_Renderer_inline" not found in /home/sahaba89/public_html/wp-includes/class-wp-text-diff-renderer-inline.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-text-diff-renderer-inline.php on line 17
+[05-Aug-2026 19:10:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Session_Tokens" not found in /home/sahaba89/public_html/wp-includes/class-wp-user-meta-session-tokens.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-user-meta-session-tokens.php on line 17
+[05-Aug-2026 19:10:19 UTC] PHP Fatal error:  Uncaught Error: Class "IXR_Server" not found in /home/sahaba89/public_html/wp-includes/class-wp-xmlrpc-server.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-xmlrpc-server.php on line 24
+[05-Aug-2026 19:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class.wp-dependencies.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class.wp-dependencies.php on line 11
+[05-Aug-2026 19:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class.wp-scripts.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class.wp-scripts.php on line 11
+[05-Aug-2026 19:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class.wp-styles.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class.wp-styles.php on line 11
+[05-Aug-2026 19:10:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/compat.php:301
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/compat.php on line 301
+[05-Aug-2026 19:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/sahaba89/public_html/wp-includes/connectors.php:566
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/connectors.php on line 566
+[05-Aug-2026 19:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/date.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/date.php on line 11
+[05-Aug-2026 19:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/embed-template.php on line 11
+[05-Aug-2026 19:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-atom-comments.php on line 8
+[05-Aug-2026 19:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rdf.php on line 8
+[05-Aug-2026 19:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rss.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rss.php on line 8
+[05-Aug-2026 19:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rss2-comments.php on line 8
+[05-Aug-2026 19:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rss2.php on line 8
+[05-Aug-2026 19:10:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/locale.php on line 11
+[05-Aug-2026 19:10:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/meta.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/meta.php on line 13
+[05-Aug-2026 19:10:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/ms-default-filters.php on line 16
+[05-Aug-2026 19:10:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/registration-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/registration-functions.php on line 9
+[05-Aug-2026 19:10:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/registration.php on line 9
+[05-Aug-2026 19:10:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/rss.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/rss.php on line 19
+[05-Aug-2026 19:10:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/script-loader.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/script-loader.php on line 20
+[05-Aug-2026 19:10:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/session.php on line 9
+[05-Aug-2026 19:10:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/spl-autoload-compat.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/spl-autoload-compat.php on line 14
+[05-Aug-2026 19:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/sahaba89/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/template-canvas.php on line 12
+[05-Aug-2026 19:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_using_themes() in /home/sahaba89/public_html/wp-includes/template-loader.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/template-loader.php on line 7
+[05-Aug-2026 19:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _wp_can_use_pcre_u() in /home/sahaba89/public_html/wp-includes/utf8.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/utf8.php on line 137
+[10-Aug-2026 04:31:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home/sahaba89/public_html/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/block-patterns.php on line 9
+[10-Aug-2026 04:31:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/cache.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/cache.php on line 12
+[10-Aug-2026 04:31:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-feed.php on line 10
+[10-Aug-2026 04:31:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-http.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-http.php on line 11
+[10-Aug-2026 04:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-json.php on line 2
+[10-Aug-2026 04:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-oembed.php on line 12
+[10-Aug-2026 04:31:56 UTC] PHP Deprecated:  The PSR-0 `Requests_...` class names in the Requests library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. in /home/sahaba89/public_html/wp-includes/class-requests.php on line 21
+[10-Aug-2026 04:31:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/class-simplepie.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-simplepie.php on line 8
+[10-Aug-2026 04:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-smtp.php on line 6
+[10-Aug-2026 04:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-snoopy.php on line 6
+[10-Aug-2026 04:31:59 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-category-dropdown.php on line 17
+[10-Aug-2026 04:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-category.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-category.php on line 17
+[10-Aug-2026 04:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-comment.php on line 17
+[10-Aug-2026 04:32:00 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[10-Aug-2026 04:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[10-Aug-2026 04:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "Walker" not found in /home/sahaba89/public_html/wp-includes/class-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-walker-page.php on line 17
+[10-Aug-2026 04:32:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/class-wp-customize-section.php:408
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-customize-section.php on line 408
+[10-Aug-2026 04:32:18 UTC] PHP Fatal error:  Uncaught Error: Interface "SimplePie\Cache\Base" not found in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache-transient.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache-transient.php on line 18
+[10-Aug-2026 04:32:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-feed-cache.php on line 11
+[10-Aug-2026 04:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "IXR_Client" not found in /home/sahaba89/public_html/wp-includes/class-wp-http-ixr-client.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[10-Aug-2026 04:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "WpOrg\Requests\Hooks" not found in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-hooks.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-hooks.php on line 18
+[10-Aug-2026 04:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_HTTP_Response" not found in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-http-requests-response.php on line 17
+[10-Aug-2026 04:32:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-gd.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-gd.php on line 16
+[10-Aug-2026 04:32:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Image_Editor" not found in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-imagick.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-image-editor-imagick.php on line 16
+[10-Aug-2026 04:32:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in /home/sahaba89/public_html/wp-includes/class-wp-phpmailer.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-phpmailer.php on line 16
+[10-Aug-2026 04:32:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/sahaba89/public_html/wp-includes/class-wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-scripts.php on line 18
+[10-Aug-2026 04:32:30 UTC] PHP Fatal error:  Uncaught Error: Class "SimplePie\File" not found in /home/sahaba89/public_html/wp-includes/class-wp-simplepie-file.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-simplepie-file.php on line 19
+[10-Aug-2026 04:32:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Dependencies" not found in /home/sahaba89/public_html/wp-includes/class-wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-styles.php on line 18
+[10-Aug-2026 04:32:36 UTC] PHP Fatal error:  Uncaught Error: Class "Text_Diff_Renderer_inline" not found in /home/sahaba89/public_html/wp-includes/class-wp-text-diff-renderer-inline.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-text-diff-renderer-inline.php on line 17
+[10-Aug-2026 04:32:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Session_Tokens" not found in /home/sahaba89/public_html/wp-includes/class-wp-user-meta-session-tokens.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-user-meta-session-tokens.php on line 17
+[10-Aug-2026 04:32:43 UTC] PHP Fatal error:  Uncaught Error: Class "IXR_Server" not found in /home/sahaba89/public_html/wp-includes/class-wp-xmlrpc-server.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class-wp-xmlrpc-server.php on line 24
+[10-Aug-2026 04:32:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class.wp-dependencies.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class.wp-dependencies.php on line 11
+[10-Aug-2026 04:32:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class.wp-scripts.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class.wp-scripts.php on line 11
+[10-Aug-2026 04:32:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/class.wp-styles.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/class.wp-styles.php on line 11
+[10-Aug-2026 04:32:45 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/compat.php:301
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/compat.php on line 301
+[10-Aug-2026 04:32:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/sahaba89/public_html/wp-includes/connectors.php:566
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/connectors.php on line 566
+[10-Aug-2026 04:32:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/date.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/date.php on line 11
+[10-Aug-2026 04:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/embed-template.php on line 11
+[10-Aug-2026 04:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-atom-comments.php on line 8
+[10-Aug-2026 04:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rdf.php on line 8
+[10-Aug-2026 04:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rss.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rss.php on line 8
+[10-Aug-2026 04:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rss2-comments.php on line 8
+[10-Aug-2026 04:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home/sahaba89/public_html/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/feed-rss2.php on line 8
+[10-Aug-2026 04:32:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/locale.php on line 11
+[10-Aug-2026 04:32:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/meta.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/meta.php on line 13
+[10-Aug-2026 04:32:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/sahaba89/public_html/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/ms-default-filters.php on line 16
+[10-Aug-2026 04:33:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/registration-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/registration-functions.php on line 9
+[10-Aug-2026 04:33:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/registration.php on line 9
+[10-Aug-2026 04:33:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/rss.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/rss.php on line 19
+[10-Aug-2026 04:33:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/sahaba89/public_html/wp-includes/script-loader.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/script-loader.php on line 20
+[10-Aug-2026 04:33:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/session.php on line 9
+[10-Aug-2026 04:33:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/sahaba89/public_html/wp-includes/spl-autoload-compat.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/spl-autoload-compat.php on line 14
+[10-Aug-2026 04:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/sahaba89/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/template-canvas.php on line 12
+[10-Aug-2026 04:33:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_using_themes() in /home/sahaba89/public_html/wp-includes/template-loader.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/template-loader.php on line 7
+[10-Aug-2026 04:34:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _wp_can_use_pcre_u() in /home/sahaba89/public_html/wp-includes/utf8.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/sahaba89/public_html/wp-includes/utf8.php on line 137

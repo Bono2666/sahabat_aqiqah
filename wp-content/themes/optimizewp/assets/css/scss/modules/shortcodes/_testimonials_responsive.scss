@@ -1,0 +1,29 @@
+@media only screen and (max-width: $laptop-landscape) {
+
+	.mkdf-testimonials-holder-inner .testimonials-grid.mkdf-four-columns {
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: $ipad-portrait) {
+
+	.mkdf-testimonials-holder-inner .testimonials-grid.mkdf-three-columns {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: $phone-landscape) {
+
+	.mkdf-testimonials-holder-inner .testimonials-grid.mkdf-two-columns {
+		width: 100%;
+	}
+
+	.mkdf-testimonials-holder-inner .testimonials-grid.mkdf-three-columns {
+		width: 100%;
+	}
+
+	.mkdf-testimonials-holder-inner .testimonials-grid.mkdf-four-columns {
+		width: 100%;
+	}
+}

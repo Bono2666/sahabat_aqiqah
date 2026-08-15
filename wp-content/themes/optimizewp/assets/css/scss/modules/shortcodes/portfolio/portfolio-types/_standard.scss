@@ -1,0 +1,60 @@
+/* Portfolio standard styles - begin
+   ========================================================================== */
+.mkdf-portfolio-list-holder-outer.mkdf-ptf-standard {
+	.mkdf-ptf-item-image-holder {
+		margin-bottom: 25px;
+	}
+
+	.mkdf-ptf-item-title {
+		margin-bottom: 10px;
+	}
+
+	.mkdf-ptf-item-excerpt p {
+		margin: 0;
+	}
+
+	.mkdf-ptf-item-bottom {
+		position: relative;
+		padding-top: 9px;
+		border-top: 1px solid #f2f2f2;
+		margin-top: 17px;
+
+		.mkdf-ptf-category-holder {
+			padding-right: 50px;
+		}
+
+		.mkdf-like {
+			position: absolute;
+			right: 0;
+			top: 10px;
+		}
+	}
+
+	.mkdf-ptf-category-holder {
+		font-family: $headings-font-family;
+		color: #808080;
+		font-weight: 700;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	.mkdf-ptf-item-image-holder {
+		position: relative;
+
+		&:hover {
+			.mkdf-ptf-item-overlay {
+				opacity: 1;
+			}
+
+			.mkdf-ptf-item-overlay-icon {
+				opacity: 1;
+
+				@include mkdfTransform(translate(-50%, -50%));
+				@include mkdfTransitionDelay(0.15s);
+			}
+		}
+	}
+}
+
+/* Portfolio standard styles - end
+   ========================================================================== */

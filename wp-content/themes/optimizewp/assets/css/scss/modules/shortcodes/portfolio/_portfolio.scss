@@ -1,0 +1,271 @@
+@import 'portfolio-types/standard';
+@import 'portfolio-types/gallery';
+@import 'portfolio-types/pinterest';
+@import 'portfolio-types/masonry';
+@import 'portfolio-slider';
+
+
+/* ==========================================================================
+   Portfolio shortcode styles - begin
+   ========================================================================== */
+
+
+/* #General portfolio list styles - start
+  ========================================================================== */
+.mkdf-portfolio-list-holder {
+	height: 100%;
+
+	article {
+		position: relative;
+		margin: 0;
+		vertical-align: top;
+
+		.mkdf-ptf-item-title {
+			margin: 0;
+		}
+
+		.mkdf-ptf-item-image-holder {
+			position: relative;
+
+			a {
+				display: block;
+			}
+
+			img {
+				vertical-align: top;
+				height: auto;
+				max-width: 100%;
+			}
+		}
+
+		.mkdf-like {
+			color: #808080;
+
+			&:after {
+				content: '\e030';
+				font-family: 'ElegantIcons';
+				color: inherit;
+			}
+
+			&.liked:after {
+				content: '\e089';
+			}
+
+		}
+	}
+
+	article.mix {
+		display: none;
+		visibility: hidden;
+		float: left;
+	}
+}
+
+.mkdf-portfolio-list-holder-outer.mkdf-ptf-with-spaces {
+	 .mkdf-portfolio-list-holder {
+		font-size: 0.1px;
+		line-height: 0;
+		text-align: justify;
+
+		article {
+			//reset portfolio item's typography
+			font-size: $default-text-size;
+			line-height: $default-text-line-height;
+			text-align: left;
+
+			margin: 0 0 2%;
+		}
+
+		 article.mix {
+			 float: none;
+		 }
+
+		.mkdf-ptf-gap {
+			display: inline-block;
+		}
+	}
+}
+
+/* General portfolio list styles - end
+   ========================================================================== */
+
+/* #Portfolio grid styles - start
+  ========================================================================== */
+.mkdf-portfolio-list-holder-outer {
+	&.mkdf-ptf-two-columns {
+		article {
+			width: 50%;
+		}
+	}
+
+	&.mkdf-ptf-three-columns {
+		article {
+			width: 33.33%;
+		}
+	}
+
+	&.mkdf-ptf-four-columns {
+		article {
+			width: 25%;
+		}
+	}
+
+	&.mkdf-ptf-five-columns {
+		article {
+			width: 20%;
+		}
+	}
+
+	&.mkdf-ptf-six-columns {
+		article {
+			width: 16.66%;
+		}
+	}
+
+	//portfolio with spaces widths
+	&.mkdf-ptf-with-spaces {
+		&.mkdf-ptf-two-columns {
+			article,
+			.mkdf-ptf-gap {
+				width: 49%;
+			}
+		}
+
+		&.mkdf-ptf-three-columns {
+			article,
+			.mkdf-ptf-gap {
+				width: 32%;
+			}
+		}
+
+		&.mkdf-ptf-four-columns {
+			article,
+			.mkdf-ptf-gap {
+				width: 23.5%;
+			}
+		}
+
+		&.mkdf-ptf-five-columns {
+			article,
+			.mkdf-ptf-gap {
+				width: 19%;
+			}
+		}
+
+		&.mkdf-ptf-six-columns {
+			article,
+			.mkdf-ptf-gap {
+				width: 15%;
+			}
+		}
+	}
+}
+/* Portfolio grid styles - end
+   ========================================================================== */
+
+
+/* #Portfolio filters styles - start
+  ========================================================================== */
+.mkdf-portfolio-filter-holder {
+	margin: 0 0 56px;
+
+	.mkdf-portfolio-filter-holder-inner {
+		text-align: center;
+
+		ul {
+			display: inline-block;
+			list-style: none;
+			vertical-align: middle;
+			padding: 0;
+			margin: 0;
+		}
+
+		ul li {
+			cursor: pointer;
+			display: block;
+			margin: 0;
+			float: left;
+			padding: 0 15px;
+
+			font-family: $headings-font-family;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: #808080;
+			font-size: 13px;
+
+			@include mkdfTransition(color 0.15s ease-in-out);
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+
+		ul li.active,
+		ul li.current,
+		ul li:hover {
+			color: $first-main-color;
+		}
+	}
+}
+/* Portfolio filters styles - end
+   ========================================================================== */
+
+
+/* #Portfolio Load More Button - start
+  ========================================================================== */
+.mkdf-portfolio-list-holder-outer .mkdf-ptf-list-paging {
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+/* Portfolio Load More Button - end
+   ========================================================================== */
+.mkdf-ptf-item-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+
+	background-color: $first-main-color;
+
+	@include mkdfTransition(0.3s opacity ease-in-out);
+}
+
+.mkdf-ptf-item-overlay-icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	opacity: 0;
+
+	width: 60px;
+	height: 60px;
+
+	font-size: 60px;
+	color: #fff;
+	z-index: 1;
+
+	-webkit-transition: opacity 0.2s cubic-bezier(.39,1,.55,1), -webkit-transform 0.2s cubic-bezier(.39,1,.55,1);
+	-moz-transition: opacity 0.2s cubic-bezier(.39,1,.55,1), -moz-transform 0.2s cubic-bezier(.39,1,.55,1);
+	transition: opacity 0.2s cubic-bezier(.39,1,.55,1), transform 0.2s cubic-bezier(.39,1,.55,1);
+
+	@include mkdfTransform(translate(-50%, calc(-50% + 15px)));
+}
+
+
+
+/* #Portfolio Overlay styles
+   ========================================================================== */
+
+
+/* #Portfolio overlay styles - end
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Portfolio styles - end
+   ========================================================================== */

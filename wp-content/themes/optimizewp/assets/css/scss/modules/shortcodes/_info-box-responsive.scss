@@ -1,0 +1,63 @@
+@include large-laptop {
+	.mkdf-info-box-holder {
+		padding: 70px 0;
+	}
+}
+
+@include mac {
+	.mkdf-info-box-holder {
+		.mkdf-elements-holder.mkdf-six-columns & {
+			display: inline-block;
+			height: auto;
+			width: 33%;
+		}
+
+		padding: 40px 0;
+
+		.mkdf-ib-front-holder {
+			.mkdf-ib-bottom-holder {
+				.mkdf-ib-text-holder {
+					font-size: 16px;
+				}
+			}
+
+			.mkdf-ib-title {
+				margin-bottom: 10px;
+			}
+
+			.mkdf-ib-icon-holder {
+				margin-bottom: 10px;
+			}
+
+			.mkdf-ib-button-holder {
+				margin-top: 23px;
+			}
+		}
+
+	}
+}
+
+@include ipad-landscape {
+	.mkdf-info-box-holder {
+		.mkdf-elements-holder.mkdf-four-columns & {
+			width: 50%;
+			display: inline-block;
+			height: auto;
+		}
+	}
+}
+
+@include ipad-portrait {
+	.mkdf-info-box-holder {
+		.mkdf-elements-holder.mkdf-two-columns &,
+		.mkdf-elements-holder.mkdf-three-columns &,
+		.mkdf-elements-holder.mkdf-four-columns &,
+		.mkdf-elements-holder.mkdf-five-columns &,
+		.mkdf-elements-holder.mkdf-six-columns & {
+			width: 100%;
+			display: inline-block;
+			height: auto;
+		}
+	}
+}
+

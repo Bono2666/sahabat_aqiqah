@@ -1,0 +1,178 @@
+.mkdf-comparision-pricing-tables-holder {
+	$border-color: #f2f2f2;
+
+	font-family: $headings-font-family;
+	font-size: 18px;
+	color: #545454;
+	font-weight: 700;
+
+	@include mkdfClearfix;
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+	}
+
+	h4, p {
+		margin: 0;
+	}
+
+	h4 {
+		color: #545454;
+	}
+
+	* {
+		@include mkdfBoxSizing(border-box);
+	}
+
+	.mkdf-cpt-table {
+		float: left;
+	}
+
+	.mkdf-cpt-table-item-feature {
+		display: none;
+	}
+
+	&.mkdf-two-columns {
+		.mkdf-cpt-table {
+			width: 33.33%;
+		}
+	}
+
+	&.mkdf-three-columns {
+		.mkdf-cpt-table {
+			width: 25%;
+		}
+	}
+
+	&.mkdf-four-columns {
+		.mkdf-cpt-table {
+			width: 20%;
+		}
+	}
+
+	.mkdf-cpt-features-holder {
+		.mkdf-cpt-features-title.mkdf-cpt-table-head-holder {
+			padding-left: 38px;
+
+			h4 {
+				font-weight: 400;
+			}
+		}
+
+		.mkdf-cpt-table-content {
+			li {
+				padding: 10px 10px 10px 38px;
+
+				&:last-child {
+					border-bottom: none;
+				}
+
+				span {
+					display: block;
+					position: relative;
+					top: 50%;
+
+					@include mkdfTransform(translateY(-50%));
+				}
+			}
+		}
+	}
+
+	.mkdf-cpt-table {
+		border: 1px solid $border-color;
+		border-right: none;
+		border-left: none;
+
+		&:not(.mkdf-cpt-features-holder) {
+			text-align: center;
+
+			.mkdf-cpt-table-head-holder,
+			.mkdf-cpt-table-content {
+				border-left: none;
+			}
+
+			li {
+				line-height: 83px;
+			}
+		}
+
+		.mkdf-cpt-table-head-holder,
+		.mkdf-cpt-table-content {
+			border-left: 1px solid $border-color;
+			border-right: 1px solid $border-color;
+		}
+
+		.mkdf-cpt-table-border-top {
+			width: 100%;
+			height: 17px;
+		}
+
+		.mkdf-cpt-table-head-holder {
+			display: table;
+
+			height: 137px;
+			width: 100%;
+			padding: 10px;
+			border-bottom: 1px solid $border-color;
+
+			.mkdf-cpt-table-head-holder-inner {
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			.mkdf-cpt-table-title {
+				margin-bottom: 15px;
+			}
+
+			.mkdf-cpt-table-price {
+				font-size: 22px;
+			}
+
+			.mkdf-cpt-table-currency {
+				font-size: 22px;
+			}
+
+			.mkdf-cpt-table-period {
+				font-size: 14px;
+				color: #868686;
+			}
+		}
+
+		.mkdf-cpt-table-content {
+			li {
+				height: 85px;
+				border-bottom: 1px solid $border-color;
+
+				&:nth-child(odd) {
+					background-color: #f8f8f8;
+				}
+
+				&:nth-child(even) {
+					background-color: #fff;
+				}
+			}
+		}
+
+		.mkdf-cpt-table-btn {
+			a {
+				display: block;
+				height: 95px;
+				background-color: $first-main-color;
+
+				color: #fff;
+				font-size: 22px;
+				font-family: $headings-font-family;
+				text-transform: uppercase;
+
+				span {
+					display: block;
+					position: relative;
+					top: 50%;
+
+					@include mkdfTransform(translateY(-50%));
+				}
+			}
+		}
+	}
+}

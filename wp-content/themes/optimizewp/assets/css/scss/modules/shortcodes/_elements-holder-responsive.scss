@@ -1,0 +1,150 @@
+/* ==========================================================================
+   Elements Holder Responsive start style
+   ========================================================================== */
+.mkdf-elements-holder {
+
+	&.mkdf-responsive-mode-1280.mkdf-two-columns,
+	&.mkdf-responsive-mode-1280.mkdf-three-columns,
+	&.mkdf-responsive-mode-1280.mkdf-four-columns,
+	&.mkdf-responsive-mode-1280.mkdf-five-columns,
+	&.mkdf-responsive-mode-1280.mkdf-six-columns {
+
+		.mkdf-elements-holder-item {
+			@media only screen and (max-width: 1280px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkdf-responsive-mode-1024.mkdf-two-columns,
+	&.mkdf-responsive-mode-1024.mkdf-three-columns,
+	&.mkdf-responsive-mode-1024.mkdf-four-columns,
+	&.mkdf-responsive-mode-1024.mkdf-five-columns,
+	&.mkdf-responsive-mode-1024.mkdf-six-columns {
+
+		.mkdf-elements-holder-item {
+			@media only screen and (max-width: 1024px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkdf-responsive-mode-768.mkdf-two-columns,
+	&.mkdf-responsive-mode-768.mkdf-three-columns,
+	&.mkdf-responsive-mode-768.mkdf-four-columns,
+	&.mkdf-responsive-mode-768.mkdf-five-columns,
+	&.mkdf-responsive-mode-768.mkdf-six-columns {
+
+		.mkdf-elements-holder-item {
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkdf-responsive-mode-600.mkdf-two-columns,
+	&.mkdf-responsive-mode-600.mkdf-three-columns,
+	&.mkdf-responsive-mode-600.mkdf-four-columns,
+	&.mkdf-responsive-mode-600.mkdf-five-columns,
+	&.mkdf-responsive-mode-600.mkdf-six-columns {
+
+		.mkdf-elements-holder-item {
+			@media only screen and (max-width: 600px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkdf-responsive-mode-480.mkdf-two-columns,
+	&.mkdf-responsive-mode-480.mkdf-three-columns,
+	&.mkdf-responsive-mode-480.mkdf-four-columns,
+	&.mkdf-responsive-mode-480.mkdf-five-columns,
+	&.mkdf-responsive-mode-480.mkdf-six-columns {
+
+		.mkdf-elements-holder-item {
+			@media only screen and (max-width: 480px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+
+	}
+
+	.mkdf-elements-holder-item-content{
+		@media only screen and (max-width: 480px) {
+			padding: 0 10px;
+		}
+	}
+
+}
+@media only screen and (max-width: 1280px) {
+	.mkdf-elements-holder.mkdf-responsive-mode-1280.mkdf-one-column-alignment-left .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+			text-align: left;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-1280.mkdf-one-column-alignment-right .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: right;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-1280.mkdf-one-column-alignment-center .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-one-column-alignment-left .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: left;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-one-column-alignment-right .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: right;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-one-column-alignment-center .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-one-column-alignment-left .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: left;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-one-column-alignment-right .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: right;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-one-column-alignment-center .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.mkdf-elements-holder.mkdf-responsive-mode-600.mkdf-one-column-alignment-left .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: left;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-600.mkdf-one-column-alignment-right .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: right;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-600.mkdf-one-column-alignment-center .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-one-column-alignment-left .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: left;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-one-column-alignment-right .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: right;
+	}
+	.mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-one-column-alignment-center .mkdf-elements-holder-item .mkdf-elements-holder-item-content {
+		text-align: center;
+	}
+}
+
+/* ==========================================================================
+   End of Elements Holder Responsive style
+   ========================================================================== */

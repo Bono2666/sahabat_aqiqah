@@ -1,0 +1,108 @@
+.mkdf-iwt {
+    $icon-tiny-content-padding: 60px;
+    $icon-small-content-padding: 80px;
+    $icon-medium-content-padding: 110px;
+    $icon-large-content-padding: 150px;
+    $icon-huge-content-padding: 180px;
+    $title-margin-bottom: 20px;
+
+	.mkdf-iwt-icon-holder-inner {
+		display: inline-block;
+	}
+
+    .mkdf-iwt-link {
+        margin-top: 20px;
+        display: inline-block;
+    }
+    
+    &.mkdf-iwt-icon-top {
+        text-align: center;
+
+        .mkdf-iwt-icon-holder img {
+            margin-bottom: 18px;
+        }
+    }
+
+    &.mkdf-iwt-icon-left,
+    &.mkdf-iwt-icon-left-from-title {
+        text-align: left;
+    }
+
+    &:not(.mkdf-iwt-left-from-title) {
+        .mkdf-iwt-title-holder {
+            margin-bottom: 10px;
+            text-transform: uppercase;
+
+            h4 {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &.mkdf-iwt-icon-left {
+        .mkdf-iwt-icon-holder {
+            float: left;
+        }
+
+        &.mkdf-iwt-icon-tiny .mkdf-iwt-content-holder {
+            padding-left: $icon-tiny-content-padding;
+        }
+
+        &.mkdf-iwt-icon-small .mkdf-iwt-content-holder {
+            padding-left: $icon-small-content-padding;
+        }
+
+        &.mkdf-iwt-icon-medium .mkdf-iwt-content-holder {
+            padding-left: $icon-medium-content-padding;
+        }
+
+        &.mkdf-iwt-icon-large .mkdf-iwt-content-holder {
+            padding-left: $icon-large-content-padding;
+        }
+
+        &.mkdf-iwt-icon-huge .mkdf-iwt-content-holder {
+            padding-left: $icon-huge-content-padding;
+        }
+    }
+
+    &.mkdf-iwt-icon-right {
+        text-align: right;
+
+        .mkdf-iwt-icon-holder {
+            float: right;
+        }
+
+        &.mkdf-iwt-icon-tiny .mkdf-iwt-content-holder {
+            padding-right: $icon-tiny-content-padding;
+        }
+
+        &.mkdf-iwt-icon-small .mkdf-iwt-content-holder {
+            padding-right: $icon-small-content-padding;
+        }
+
+        &.mkdf-iwt-icon-medium .mkdf-iwt-content-holder {
+            padding-right: $icon-medium-content-padding;
+        }
+
+        &.mkdf-iwt-icon-large .mkdf-iwt-content-holder {
+            padding-right: $icon-large-content-padding;
+        }
+
+        &.mkdf-iwt-icon-huge .mkdf-iwt-content-holder {
+            padding-right: $icon-huge-content-padding;
+        }
+    }
+
+    &.mkdf-iwt-left-from-title {
+        .mkdf-iwt-icon-title-holder {
+            margin-bottom: $title-margin-bottom;
+        }
+
+
+        .mkdf-iwt-icon-holder,
+        .mkdf-iwt-title-holder {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}

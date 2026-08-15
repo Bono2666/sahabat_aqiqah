@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Blockquote shortcode start styles
+   ========================================================================== */
+blockquote {
+	position: relative;
+	display: table;
+
+	.mkdf-icon-quotations-holder {
+		display: table-cell;
+		width: 1%;
+		padding: 0 10px 0 15px;
+		font-size: 60px;
+		line-height: 60px;
+		font-weight: 400;
+		color: $first-main-color;
+	}
+
+	.mkdf-blockquote-text {
+		display: table-cell;
+		vertical-align: top;
+		font-weight: 600;
+		color: #808080;
+		line-height: 30px;
+		font-family: $default-font-family;
+	}
+    
+}
+
+/* ==========================================================================
+   Blockquote shortcode end styles
+   ========================================================================== */

@@ -1,0 +1,119 @@
+@import "blocks/mobile-navigation";
+
+/* ==========================================================================
+#Mobile header styles
+========================================================================== */
+.mkdf-mobile-header {
+    display: none;
+    position: relative;
+    z-index: 101; //one more thatn the content
+	border-bottom: 1px solid #f2f2f2;
+
+   /* #General mobile header styles
+   ========================================================================== */
+    .mkdf-mobile-header-inner {
+        height: 100px;
+        background-color: #fff;
+        position: relative;
+
+        .mkdf-mobile-header-holder {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+        }
+    }
+
+    .mkdf-grid {
+        height: 100%;
+    }
+
+    .mkdf-vertical-align-containers {
+        padding: 0;
+    }
+
+    /* #End of general mobile header styles
+   ========================================================================== */
+
+
+
+
+    /* #Mobile logo styles
+    ========================================================================== */
+    .mkdf-mobile-logo-wrapper a {
+        display: block;
+        max-height: 80px;
+    }
+
+    .mkdf-mobile-logo-wrapper img {
+        height: 100%;
+        width: auto;
+    }
+    /* #End of mobile logo styles
+    ========================================================================== */
+
+
+
+    /* #Mobile menu opener styles
+    ========================================================================== */
+    .mkdf-mobile-menu-opener {
+        float: left;
+        position: relative;
+        z-index: 112;
+        height: 100%;
+
+        a {
+            display: table;
+            height: 100%;
+            padding-right: 10px;
+            color: #000;
+
+            &:hover {
+                color: $first-main-color;
+            }
+        }
+
+        .mkdf-mobile-opener-icon-holder {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+    /* #End of mobile menu opener styles
+    ========================================================================== */
+}
+
+/* ==========================================================================
+#End of mobile header styles
+========================================================================== */
+
+
+
+/* ==========================================================================
+#Sticky mobile header styles
+========================================================================== */
+.mkdf-sticky-up-mobile-header {
+    .mkdf-animate-mobile-header {
+        .mkdf-mobile-header-inner {
+            width: 100%;
+
+			//Added left and right transition values because of sidearea transitions on open/close
+			-webkit-transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+			-moz-transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+			-o-transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+			transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+            @include mkdfTransform(translateY(-100%));
+        }
+    }
+
+    .mobile-header-appear {
+        .mkdf-mobile-header-inner {
+            top: 0;
+			left: 0;
+            width: 100%;
+            position: fixed;
+            @include mkdfTransform(translateY(0));
+        }
+    }
+}
+/* ==========================================================================
+#End of sticky mobile header styles
+========================================================================== */

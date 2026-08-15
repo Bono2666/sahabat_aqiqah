@@ -1,0 +1,24 @@
+.mkdf-header-vertical {
+
+    .mkdf-logo-wrapper {
+        z-index: 100;
+        display: block;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+
+        a {
+            display: block;
+            position: relative;
+            height: 100%;
+        }
+
+        img {
+            display: block;
+            height: auto;
+            max-height: 100%;
+
+            @include mkdfTransition(opacity 0.3s ease);
+        }
+    }
+}

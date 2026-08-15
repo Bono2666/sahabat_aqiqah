@@ -1,0 +1,73 @@
+/* ==========================================================================
+# Call to action responsive style - begin
+========================================================================== */
+
+.mkdf-call-to-action {
+
+	.mkdf-call-to-action-row-75-25 .mkdf-call-to-action-column1 {
+
+		@media only screen and (min-width: $phone-landscape) and (max-width: $ipad-landscape) {
+			width: 65%;
+		}
+
+	}
+
+	.mkdf-call-to-action-row-75-25 .mkdf-call-to-action-column2 {
+
+		@media only screen and (min-width: $phone-landscape) and (max-width: $ipad-landscape) {
+			width: 35%;
+		}
+
+	}
+
+	.mkdf-call-to-action-cell {
+
+		@include phone-landscape {
+			display: block;
+			text-align: center !important;
+			width: 100% !important;
+		}
+
+	}
+
+	.mkdf-text-wrapper .mkdf-call-to-action-icon-holder {
+
+		@include phone-landscape {
+			position: relative;
+			width: 100%;
+			text-align: center;
+		}
+
+	}
+
+	.mkdf-text-wrapper .mkdf-call-to-action-icon {
+
+		@include phone-landscape {
+			display: inline-block;
+		}
+
+	}
+
+	.mkdf-text-wrapper .mkdf-call-to-action-text {
+
+		@include phone-landscape {
+			text-align: center;
+			margin-bottom: 10px;
+			padding: 0 !important;
+		}
+
+	}
+
+}
+
+.mkdf-call-to-action.with-icon {
+
+	@include phone-landscape {
+		padding: 0;
+	}
+
+}
+
+/* ==========================================================================
+# Call to action responsive style - end
+========================================================================== */

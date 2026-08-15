@@ -1,0 +1,19 @@
+.mkdf-portfolio-list-holder-outer.mkdf-ptf-masonry {
+	article .mkdf-item-image-holder {
+		height: 100%;
+	}
+	article .mkdf-item-image-holder img {
+		width: 100%;
+		@include mkdfTransform(scale(1));
+	}
+
+	.mkdf-portfolio-list-masonry-grid-sizer,
+	article.mkdf-default-masonry-item,
+	article.mkdf-large-height-masonry-item {
+		width: 33.33%;
+	}
+	.mkdf-large-width-masonry-item,
+	.mkdf-large-width-height-masonry-item {
+		width: 66.66%;
+	}
+}

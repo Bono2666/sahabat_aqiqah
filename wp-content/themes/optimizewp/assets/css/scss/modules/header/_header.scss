@@ -1,0 +1,262 @@
+@import "blocks/logo";
+@import "blocks/main_menu";
+@import "widgets/search";
+@import "widgets/sections";
+@import "widgets/banner";
+@import "top-bar/top-bar";
+@import "types/header-standard/_header-standard";
+@import "types/header-vertical/_header-vertical";
+@import "types/mobile-header/_mobile-header";
+
+$logo-area-height: 220px;
+$menu-area-height: 92px;
+$sticky-header-height: 60px;
+
+.mkdf-page-header {
+
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	vertical-align: middle;
+	width: 100%;
+	z-index: 110;
+
+	/* ==========================================================================
+	#General header layout - start
+	========================================================================== */
+	a img {
+		display: block;
+	}
+
+	.mkdf-grid {
+		height: 100%;
+
+		.mkdf-vertical-align-containers {
+			padding: 0;
+			@include mkdfTransition(background-color 0.3s ease);
+		}
+	}
+
+	/* ==========================================================================
+	#General header layout - end
+	========================================================================== */
+
+	/* ==========================================================================
+	#Logo area styles - start
+	========================================================================== */
+	.mkdf-logo-area {
+		height: $logo-area-height;
+		overflow: hidden;
+		position: relative;
+
+		.mkdf-logo-wrapper a {
+			max-height: $logo-area-height*0.9;
+		}
+	}
+	/* ==========================================================================
+	#Logo area styles - end
+	========================================================================== */
+
+	/* ==========================================================================
+	#Menu area styles - start
+	========================================================================== */
+	.mkdf-menu-area {
+		height: $menu-area-height;
+		position: relative;
+		@include mkdfTransition(background-color 0.3s ease);
+
+		.mkdf-logo-wrapper a {
+			max-height: $menu-area-height*0.9;
+		}
+	}
+
+	/* ==========================================================================
+	#Menu area styles - end
+	========================================================================== */
+
+	/* ==========================================================================
+	#Sticky header styles - start
+	========================================================================== */
+	.mkdf-sticky-header {
+		height: $sticky-header-height;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%);
+		-webkit-transition: -webkit-transform 0.33s ease;
+		transition: transform 0.3s ease;
+		-webkit-backface-visibility: hidden;
+
+		&.header-appear {
+			transform: translateY(0%);
+		}
+
+		.mkdf-sticky-holder {
+			height: 100%;
+			background-color: #323232;
+			position: relative;
+			z-index: 2;
+
+			@include mkdfBoxSizing(border-box);
+		}
+
+		.admin-bar &.header-appear {
+			top: 32px;
+		}
+
+		.mkdf-position-right-inner {
+			height: 100%;
+			display: initial;
+		}
+
+		.mkdf-sticky-holder .mkdf-logo-wrapper a {
+			max-height: $sticky-header-height*0.9;
+		}
+
+		.mkdf-sticky-right-widget-area {
+			height: 100%;
+			display: inline-block;
+			vertical-align: middle;
+			color: #fff;
+
+			@include mkdfClearfix;
+		}
+
+		.mkdf-sticky-right-widget {
+			display: table;
+			height: 100%;
+			float: left;
+			margin-left: 15px;
+		}
+
+		.mkdf-sticky-right-widget-inner {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.mkdf-sticky-right {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		.mkdf-main-menu > ul > li > a,
+		.mkdf-main-menu > ul > li.mkdf-active-item > a,
+		body:not(.mkdf-menu-item-first-level-bg-color) & .mkdf-main-menu > ul > li > a,
+		.mkdf-side-menu-button-opener,
+		.mkdf-search-opener {
+			color: #fff;
+
+			&:hover {
+				color: $first-main-color;
+			}
+		}
+
+		.mkdf-main-menu > ul > li:hover > a,
+		body:not(.mkdf-menu-item-first-level-bg-color) & .mkdf-main-menu > ul > li:hover > a {
+			color: $first-main-color;
+		}
+	}
+
+	/* ==========================================================================
+	#Sticky header styles - start
+	========================================================================== */
+
+	/* ==========================================================================
+	#Fixed header styles - start
+	========================================================================== */
+	.mkdf-fixed-wrapper.fixed {
+		width: 100%;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		-webkit-backface-visibility: hidden;
+	}
+
+	/* ==========================================================================
+	#Fixed header - end
+	========================================================================== */
+
+	.mkdf-search-opener {
+		color: #838383;
+
+		&:hover {
+			color: $first-main-color;
+		}
+	}
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+
+.mkdf-light-header {
+
+	.mkdf-logo-area,
+	.mkdf-menu-area,
+	.mkdf-vertical-menu-area {
+		//color: $header-light-color !important; //Beacause of inline color styles
+
+		.mkdf-main-menu-widget-area {
+			color: $header-light-color; //Beacause of inline color styles
+
+			.widgettitle {
+				color: $header-light-color; //Beacause of inline color styles
+			}
+
+		}
+
+		.mkdf-light-logo {
+			opacity: 1;
+		}
+
+		.mkdf-dark-logo,
+		.mkdf-normal-logo {
+			opacity: 0;
+		}
+
+	}
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+
+.mkdf-dark-header {
+
+	.mkdf-logo-area,
+	.mkdf-menu-area,
+	.mkdf-vertical-menu-area {
+		//color: $header-dark-color !important; //Because of inline color styles
+
+		.mkdf-main-menu-widget-area {
+			color: $header-dark-color; //Beacause of inline color styles
+
+			.widgettitle {
+				color: $header-dark-color; //Beacause of inline color styles
+			}
+
+		}
+
+		.mkdf-dark-logo {
+			opacity: 1;
+		}
+
+		.mkdf-normal-logo,
+		.mkdf-light-logo {
+			opacity: 0;
+		}
+
+	}
+
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */

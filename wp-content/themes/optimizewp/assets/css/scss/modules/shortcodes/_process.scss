@@ -1,0 +1,98 @@
+.mkdf-process-holder {
+	position: relative;
+	margin-top: 55px;
+
+	.mkdf-process-inner {
+		@include mkdfClearfix;
+	}
+
+	.mkdf-process-bg-holder {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 120%;
+		height: 100%;
+		background: url('img/process-bg.png') no-repeat 50% 0;
+		z-index: -1;
+		opacity: 0;
+
+		margin: 0 -100px;
+	}
+
+	.mkdf-process-item-holder {
+		text-align: center;
+		float: left;
+		width: 25%;
+
+		.no-touch & {
+			opacity: 0;
+		}
+
+		.mkdf-pi-holder-inner {
+			width: 72.03947368421053%;
+		}
+
+		&.mkdf-pi-highlighted {
+			.mkdf-pi-image-holder {
+				width: 314px;
+				height: 314px;
+				margin-top: -38px;
+			}
+
+			.mkdf-pi-holder-inner {
+				width: 100%;
+			}
+		}
+
+		&.mkdf-pi-push-right {
+			.mkdf-pi-holder-inner {
+				float: right;
+			}
+		}
+	}
+
+	&.mkdf-process-holder-items-three {
+		.mkdf-process-item-holder {
+			width: 33.33%;
+		}
+	}
+
+	&.mkdf-process-multiple-highlights {
+		.mkdf-pi-holder-inner {
+			width: 100%;
+		}
+	}
+
+	.mkdf-pi-title-holder {
+		margin-bottom: 7px;
+	}
+
+	.mkdf-pi-title {
+		margin: 0;
+	}
+
+	.mkdf-pi-text-holder {
+		p { margin: 0; }
+	}
+
+	.mkdf-pi-image-holder {
+		background-color: #fff;
+
+		display: inline-block;
+		width: 214px;
+		height: 214px;
+		border: 1px dashed #ebebeb;
+		padding: 10px;
+		margin-bottom: 20px;
+
+		overflow: hidden;
+
+		@include mkdfBorderRadius(50%);
+		@include mkdfBoxSizing(border-box);
+
+		img {
+			vertical-align: middle;
+			width: 100%;
+		}
+	}
+}
